@@ -1,0 +1,297 @@
+/* Icons */
+
+.icons {
+	cursor: default;
+}
+
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.icon:before {
+	background: 50% 50% no-repeat;
+	content: '';
+	display: block;
+}
+
+.icon_add:before {
+	background-image: url('../images/icon-add.svg');
+	height: 24px;
+	width: 24px;
+}
+
+.icon_checkbox:before {
+	background-image: url('../images/icon-checkbox.svg');
+	height: 14px;
+	width: 14px;
+}
+.icon_checkbox.active:before {
+	background-image: url('../images/icon-checkbox-active.svg');
+}
+.icon_checkbox.disabled {
+	opacity: 0.5;
+}
+
+.icon_column-settings:before {
+	background-image: url('../images/icon-column-settings.svg');
+	height: 14px;
+	width: 6px;
+}
+
+.icon_cross:before {
+	background-image: url('../images/icon-cross.svg');
+	height: 8px;
+	width: 8px;
+}
+
+.icon_cross2:before {
+	background-image: url('../images/icon-cross2.svg');
+	height: 11px;
+	width: 11px;
+}
+
+.icon_delete-file:before {
+	background-image: url('../images/icon-delete-file.svg');
+	height: 24px;
+	width: 24px;
+}
+
+.icon_download:before {
+	background-image: url('../images/icon-download.svg');
+	height: 20px;
+	width: 14px;
+}
+
+.icon_dropbox:before {
+	background-image: url('../images/icon-dropbox.svg');
+	height: 35px;
+	width: 30px;
+}
+
+.icon_favorite:before {
+	background-image: url('../images/icon-favorite.svg');
+	height: 19px;
+	width: 20px;
+}
+.icon_favorite.active:before {
+	background-image: url('../images/icon-favorite-active.svg');
+}
+
+.icon_go-prev:before {
+	background-image: url('../images/icon-go-prev.svg');
+	height: 34px;
+	width: 34px;
+}
+
+.icon_go-prev2:before {
+	background-image: url('../images/icon-go-prev2.svg');
+	height: 24px;
+	width: 24px;
+}
+
+.icon_header-logo:before {
+	background-image: url('../images/icon-header-logo.svg');
+	height: 48px;
+	width: 100px;
+}
+
+.icon_header-logout:before {
+	background-image: url('../images/icon-header-logout.svg');
+	height: 34px;
+	width: 35px;
+}
+
+.icon_header-oneworld:before {
+	background-image: url('../images/icon-header-oneworld.svg');
+	height: 50px;
+	width: 50px;
+}
+
+.icon_header-s7:before {
+	background-image: url('../images/icon-header-s7.svg');
+	height: 50px;
+	width: 50px;
+}
+
+.icon_important:before {
+	background-image: url('../images/icon-important.svg');
+	height: 19px;
+	width: 20px;
+}
+
+.icon_important.active:before {
+	background-image: url('../images/icon-important-active.svg');
+}
+
+.icon_link:before {
+	background-image: url('../images/icon-link.svg');
+	height: 11px;
+	width: 11px;
+}
+
+.icon_login-oneworld:before {
+	background-image: url('../images/icon-login-oneworld.svg');
+	height: 44px;
+	width: 44px;
+}
+
+.icon_login-s7:before {
+	background-image: url('../images/icon-login-s7.svg');
+	height: 44px;
+	width: 44px;
+}
+
+.icon_modal-close:before {
+	background-image: url('../images/icon-modal-close.svg');
+	height: 28px;
+	width: 28px;
+}
+
+.icon_pencil:before {
+	background-image: url('../images/icon-pencil.svg');
+	height: 16px;
+	width: 16px;
+}
+
+.icon_pencil-white:before {
+	background-image: url('../images/icon-pencil-white.svg');
+	height: 16px;
+	width: 16px;
+}
+
+.icon_plus:before {
+	background-image: url('../images/icon-plus.svg');
+	height: 12px;
+	width: 12px;
+}
+
+.icon_search:before {
+	background-image: url('../images/icon-search.svg');
+	height: 19px;
+	width: 19px;
+}
+
+.icon_settings:before {
+	background-image: url('../images/icon-settings.svg');
+	height: 21px;
+	width: 21px;
+}
+
+.icon_sidebar-trigger:before {
+	background-image: url('../images/icon-sidebar-trigger.svg');
+	height: 30px;
+	width: 30px;
+}
+
+.icon_sortable:before {
+	background-image: url('../images/icon-sortable.svg');
+	height: 12px;
+	width: 10px;
+}
+.sortable_up .icon_sortable:before {
+	background-image: url('../images/icon-sortable-up.svg');
+}
+.sortable_down .icon_sortable:before {
+	background-image: url('../images/icon-sortable-down.svg');
+}
+
+.icon_task-actions:before {
+	background-image: url('../images/icon-task-actions.svg');
+	height: 15px;
+	width: 15px;
+}
+
+.icon_task-status:before,
+.icon_task-status.status-draft:before {
+	background-image: url('../images/icon-task-status-draft.svg');
+	height: 15px;
+	width: 15px;
+}
+.icon_task-status.status-new:before {
+	background-image: url('../images/icon-task-status-new.svg');
+}
+.icon_task-status.status-underway:before {
+	background-image: url('../images/icon-task-status-underway.svg');
+}
+.icon_task-status.status-rejected:before {
+	background-image: url('../images/icon-task-status-rejected.svg');
+}
+.icon_task-status.status-canceled:before {
+	background-image: url('../images/icon-task-status-canceled.svg');
+}
+.icon_task-status.status-performed:before {
+	background-image: url('../images/icon-task-status-performed.svg');
+}
+.icon_task-status.status-completed:before {
+	background-image: url('../images/icon-task-status-completed.svg');
+}
+
+.icon_task-track-dots:before {
+	background-image: url('../images/icon-task-track-dots.svg');
+	height: 15px;
+	width: 21px;
+}
+
+.icon_thrash:before {
+	background-image: url('../images/icon-thrash.svg');
+	height: 18px;
+	width: 16px;
+}
+
+.icon_warning:before {
+	background-image: url('../images/icon-warning.svg');
+	height: 15px;
+	width: 15px;
+}
+
+/* end of Icons */
+
+/* Tabs Icons */
+
+.tabs-head-item .icon_info:before {
+	background-image: url('../images/icon-tabs-info.svg');
+	height: 30px;
+	width: 30px;
+}
+.tabs-head-item.active .icon_info:before {
+	background-image: url('../images/icon-tabs-info-active.svg');
+}
+.tabs-head-item .icon_clip:before {
+	background-image: url('../images/icon-tabs-clip.svg');
+	height: 25px;
+	width: 27px;
+}
+.tabs-head-item.active .icon_clip:before {
+	background-image: url('../images/icon-tabs-clip-active.svg');
+}
+.tabs-head-item .icon_list:before {
+	background-image: url('../images/icon-tabs-list.svg');
+	height: 22px;
+	width: 28px;
+}
+.tabs-head-item.active .icon_list:before {
+	background-image: url('../images/icon-tabs-list-active.svg');
+}
+
+/* end of Tabs Icons */
+
+/* Input Text Icons */
+
+.input-text.datepicker {
+	background-image: url('../images/icon-datepicker.svg');
+}
+
+.login-modal .input-text_login {
+	background-image: url('../images/icon-input-login.svg');
+}
+
+.login-modal .input-text_pass {
+	background-image: url('../images/icon-input-pass.svg');
+}
+
+.login-modal .input-text_mail {
+	background-image: url('../images/icon-input-mail.svg');
+}
+
+/* end of Input Text Icons */

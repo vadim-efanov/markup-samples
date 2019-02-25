@@ -1,0 +1,41 @@
+/* Media */
+
+@media all and (max-width: 760px) {
+	.home-screen .cols {
+		display: block;
+		padding-top: 4em;
+	}
+	.home-screen .col {
+		display: block;
+		padding: 1em;
+	}
+	.about-member .col {
+		display: block;
+	}
+	.about-member .skills .items {
+		padding: 2em 0 0;
+	}
+	.contact .col {
+		display: block;
+		padding: 1em;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.home-screen .letter {
+		display: none;
+	}
+	.home-screen .quote {
+		font-size: 120%;
+	}
+	.home-screen .text {
+		font-size: 80%;
+		line-height: 1.2;
+	}
+	.about-member .last-name,
+	.about-member .first-name {
+		font-size: 200%;
+	}
+}
+
+/* end of Media */

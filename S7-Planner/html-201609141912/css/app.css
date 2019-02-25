@@ -1,0 +1,41 @@
+/* Libs */
+
+@import url('../libs/bootstrap/css/bootstrap.css');
+@import url('../libs/bootstrap/css/bootstrap-theme.css');
+@import url('../libs/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css');
+@import url('../libs/jquery-ui/jquery-ui.css');
+@import url('../libs/select2/select2.css');
+
+/* end of Libs */
+
+/* Lib Themes */
+
+@import url('datepicker-theme.css');
+@import url('bootstrap-datetimepicker-theme.css');
+@import url('select2-theme.css');
+@import url('modal-theme.css');
+
+/* end of Lib Themes */
+
+/* Common Styles */
+
+@import url('layout.css');
+@import url('typography.css');
+@import url('common-styles.css');
+@import url('icons.css');
+@import url('loaders.css');
+@import url('forms.css');
+@import url('buttons.css');
+@import url('header.css');
+@import url('footer.css');
+
+/* end of Common Styles */
+
+/* Pages */
+
+@import url('page-login.css');
+@import url('page-task-all.css');
+@import url('page-task-new.css');
+@import url('page-task-edit.css');
+
+/* end of Pages */

@@ -1,0 +1,89 @@
+/* Modal Theme */
+
+.modal {
+	/*display: block;*/
+	/*height: auto !important;*/
+	/*margin: 0 !important;*/
+	text-align: center;
+	white-space: nowrap;
+	/*width: auto !important;*/
+}/* Die, Bootstrap, Die! */
+
+.modal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	white-space: normal;
+}
+
+.modal-content {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.modal-header {
+	border: none;
+	padding: 1em;
+}
+
+.modal-header > .cols > .col {
+	padding: 1em;
+	vertical-align: middle;
+}
+
+.modal-header > .cols > .col_02 {
+	width: 60px;
+}
+
+.modal-title {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.modal-close {
+	background: none;
+	border: none;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.modal-body {
+	padding: 1em;
+}
+
+.modal-body:before {
+	background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAICAYAAAA4GpVBAAAAJElEQVQI10XEMREAIAwEsFx/wgP+NVUIezuSITCF/gU3OMEDC27qBLCiLZUDAAAAAElFTkSuQmCC') 0 0 repeat-x;
+	content: '';
+	height: 8px;
+	left: 0;
+	opacity: 0.1;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.modal-footer {
+	border: none;
+	padding: 1em;
+}
+
+.modal-footer .buttons {
+	text-align: center;
+}
+
+.modal-footer .button {
+	max-width: 100%;
+	width: 190px;
+}
+
+/* end of Modal Theme */

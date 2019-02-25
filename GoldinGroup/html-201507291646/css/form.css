@@ -1,0 +1,32 @@
+/* Form */
+
+.input-text,
+.select,
+.textarea {
+	background: #D8D6C0;
+	border: 1px solid #666;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #000;
+	display: block;
+	font: inherit;
+	padding: 1em;
+	width: 100%;
+}
+
+.textarea {
+	height: 100px;
+}
+
+.form-item.error .input-text,
+.form-item.error .select,
+.form-item.error .textarea {
+	border-color: #f00;
+	border-width: 3px;
+}
+.form-item.error .help {
+	color: #f00;
+}
+
+/* end of Form */

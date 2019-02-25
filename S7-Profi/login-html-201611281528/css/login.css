@@ -1,0 +1,129 @@
+/* Login */
+
+.login-page {
+	background: #999 url('../img/login-bg.jpg') 50% 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.login {
+	display: table-cell;
+	padding: 20px 0;
+	vertical-align: middle;
+}
+
+.login-dialog {
+	background: #666;
+	background: radial-gradient(ellipse at top right, rgba(50,50,50,0) 0%, rgba(50,50,50,0.75) 50%);
+	margin: auto;
+	max-width: 400px;
+	overflow: hidden;
+	padding: 36px 26px;
+	position: relative;
+	width: 90%;
+}
+
+.login-dialog-header {
+	padding-bottom: 30px;
+}
+
+.login-dialog-header .icon {
+	margin-right: 2px;
+}
+
+.login-dialog .form-item + .form-item {
+	margin-top: 18px;
+}
+
+.login-dialog .input-text {
+	background: none;
+	border: 1px solid #999;
+	color: #fff;
+	display: block;
+	height: 50px;
+	line-height: 48px;
+	margin: 0;
+	padding: 0 10px;
+	width: 100%;
+}
+
+.login-dialog .validation-message {
+	color: #f33;
+	display: none;
+}
+
+.login-dialog .validation-error .input-text {
+	border-color: #f33;
+	color: #f33;
+}
+
+.login-dialog .validation-error .validation-message {
+	display: block;
+}
+
+.login-dialog .forgot-pass {
+	text-align: right;
+}
+
+.login-dialog .forgot-pass .link,
+.login-dialog .forgot-pass .link:hover {
+	color: #999;
+	font-size: 80%;
+}
+
+.login-dialog .buttons {
+	margin-top: 10px;
+}
+
+.login-dialog .button {
+	background: #ccc;
+	border: 1px solid #ccc;
+	color: #fff;
+	display: inline-block;
+	font: inherit;
+	height: 50px;
+	line-height: 48px;
+	margin: 0;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.login-dialog .button:only-child {
+	width: 100%;
+}
+
+.login-dialog .button_color-green {
+	background-color: #ADC400;
+	border-color: #ADC400;
+}
+
+.login-page-footer {
+	color: #eee;
+	display: table-cell;
+	font-size: 80%;
+	padding: 10px 0;
+}
+
+.login-page-footer .link,
+.login-page-footer .link:hover {
+	color: currentColor;
+}
+
+.login-page-footer .col {
+	padding: 0 10px;
+}
+
+.login-page-footer .col_developer {}
+
+.login-page-footer .col_copyright {
+	text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+	.login-page-footer .col {
+		display: block;
+		text-align: center;
+	}
+}
+
+/* end of Login */

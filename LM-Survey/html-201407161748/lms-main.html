@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>LMS - Main</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/lms.css" />
+	<link rel="stylesheet" href="css/lms-media.css" />
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="css/lms-ie.css" />
+	<![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.cycle2.min.js"></script>
+	<script src="js/lms.js"></script>
+</head>
+<body>
+	<div class="body">
+		<div class="body-top">
+			<div class="body-section body-section_header">
+				<div class="body-block body-block_header">
+					<div class="header">
+						<div class="header-title">
+							<a href="javascript://" class="link">Oh My Boss</a>
+						</div>
+						<div class="header-search">
+							<div class="title">Ваш настоящий или будущий босс или компания</div>
+							<div class="input-wrapper">
+								<input type="text" class="input-text autocomplete" />
+								<button class="button">Search</button>
+							</div>
+							<div class="header-login">
+								<a href="javascript://" class="link" id="header-login-link">Вход</a>
+								<div id="header-login-dialog" title="Вход">
+									<div class="login-items">
+										<div class="login-item login-item_phone">
+											<div class="title">Телефон</div>
+											<div class="value">
+												<input type="text" class="input-text" />
+											</div>
+										</div>
+										<div class="login-item">
+											<div class="title">Пароль</div>
+											<div class="value">
+												<input type="text" class="input-text" />
+											</div>
+										</div>
+									</div><!-- login-items -->
+									<div class="buttonset">
+										<button class="button button_ok">Войти</button>
+									</div>
+									<div class="linkset">
+										<a href="javascript://" class="link link_login-register">Регистрация</a>
+										<a href="javascript://" class="link link_login-reminder">Забыли пароль?</a>
+									</div>
+									<div class="social">
+										<div class="social-items">
+											<div class="social-item social-item_vk">
+												<a href="javascript://" class="link">Vkontakte</a>
+											</div>
+											<div class="social-item social-item_fb">
+												<a href="javascript://" class="link">Facebook</a>
+											</div>
+										</div>
+										<div class="social-title">Вход с помощью социальных сетей</div>
+									</div>
+								</div><!-- header-login-dialog -->
+								<div id="header-login-dialog-2" title="Регистрация">
+									<div class="login-items">
+										<div class="login-item login-item_phone">
+											<div class="title">Телефон</div>
+											<div class="value">
+												<input type="text" class="input-text" />
+											</div>
+										</div>
+									</div><!-- login-items -->
+									<div class="captcha-wrapper">
+										<img src="images/reCAPTCHA_Sample_Clean.png" alt="" class="image" />
+									</div><!-- captcha-wrapper -->
+									<div class="buttonset">
+										<button class="button button_ok">Получить пароль</button>
+									</div>
+									<div class="linkset">
+										<a href="javascript://" class="link link_login-entrance">Вход</a>
+										<a href="javascript://" class="link link_login-reminder">Забыли пароль?</a>
+									</div>
+									<div class="social">
+										<div class="social-items">
+											<div class="social-item social-item_vk">
+												<a href="javascript://" class="link">Vkontakte</a>
+											</div>
+											<div class="social-item social-item_fb">
+												<a href="javascript://" class="link">Facebook</a>
+											</div>
+										</div>
+										<div class="social-title">Вход с помощью социальных сетей</div>
+									</div>
+								</div><!-- header-login-dialog-2 -->
+								<div id="header-login-dialog-3" title="Забыли пароль?">
+									<div class="login-items">
+										<div class="login-item login-item_phone">
+											<div class="title">Телефон</div>
+											<div class="value">
+												<input type="text" class="input-text" />
+											</div>
+										</div>
+									</div><!-- login-items -->
+									<div class="captcha-wrapper">
+										<img src="images/reCAPTCHA_Sample_Clean.png" alt="" class="image" />
+									</div><!-- captcha-wrapper -->
+									<div class="buttonset">
+										<button class="button button_ok">Восстановить пароль</button>
+									</div>
+									<div class="linkset">
+										<a href="javascript://" class="link link_login-entrance">Вход</a>
+										<a href="javascript://" class="link link_login-register">Регистрация</a>
+									</div>
+									<div class="social">
+										<div class="social-items">
+											<div class="social-item social-item_vk">
+												<a href="javascript://" class="link">Vkontakte</a>
+											</div>
+											<div class="social-item social-item_fb">
+												<a href="javascript://" class="link">Facebook</a>
+											</div>
+										</div>
+										<div class="social-title">Вход с помощью социальных сетей</div>
+									</div>
+								</div><!-- header-login-dialog-3 -->
+							</div><!-- header-login -->
+						</div><!-- header-search -->
+						<div class="header-menu">
+							<div class="item item_survey">
+								<a href="javascript://" class="link">Пройдите опрос и оцените <br />своего босса и свою компанию</a>
+							</div>
+							<div class="item item_result">
+								<a href="javascript://" class="link">Узнайте о рейтинге компании <br />и ее руководителей</a>
+							</div>
+						</div><!-- header-menu -->
+					</div><!-- header -->
+				</div><!-- body-block_header -->
+			</div><!-- body-section_header -->
+
+			<div class="body-section body-section_start">
+				<div class="body-block body-block_start">
+					<div class="start">
+						<div class="start-menu">
+							<div class="item item_company">
+								<div class="item-inner">
+									<a href="javascript://" class="link">Опрос<br />про Компанию</a>
+									<img src="images/start-menu-1.png" alt="" class="image" />
+									<div id="start-dialog-company" class="start-dialog-company" title="Опрос про компанию">
+										<div class="start-dialog-items">
+											<div class="start-dialog-item">
+												<div class="title">Название компании</div>
+												<div class="value">
+													<input type="text" class="input-text autocomplete" />
+												</div>
+											</div>
+										</div><!-- start-dialog-items -->
+										<div class="buttonset">
+											<button class="button button_ok">Пройти опрос</button>
+										</div>
+									</div><!-- start-dialog-company -->
+								</div>
+							</div>
+							<div class="item item_boss">
+								<div class="item-inner">
+									<a href="javascript://" class="link">Опрос<br />про Босса</a>
+									<img src="images/start-menu-2.png" alt="" class="image" />
+									<div id="start-dialog-boss" class="start-dialog-boss" title="Опрос про босса">
+										<div class="start-dialog-items">
+											<div class="start-dialog-item">
+												<div class="title">ФИО</div>
+												<div class="value">
+													<input type="text" class="input-text autocomplete" />
+												</div>
+											</div>
+											<div class="start-dialog-item">
+												<div class="title">Должность</div>
+												<div class="value">
+													<input type="text" class="input-text autocomplete" />
+												</div>
+											</div>
+											<div class="start-dialog-item">
+												<div class="title">Компания</div>
+												<div class="value">
+													<input type="text" class="input-text autocomplete" />
+												</div>
+											</div>
+										</div><!-- start-dialog-items -->
+										<div class="buttonset">
+											<button class="button button_ok">Пройти опрос</button>
+										</div>
+									</div><!-- start-dialog-boss -->
+								</div>
+							</div>
+						</div><!-- start-menu -->
+					</div><!-- start -->
+				</div><!-- body-block_start -->
+			</div><!-- body-section_start -->
+
+			<div class="body-section body-section_rate-stats">
+				<div class="body-block body-block_rate-stats">
+					<div class="rate-stats">
+						<div class="rate-stats-group">
+							<div class="rate-stats-group-inner">
+								<div class="rate-stats-title">Лучшие<br />компании</div>
+								<div class="rate-stats-note">Все компании (188/3 новых)</div>
+								<div class="rate-stats-data">
+									<table>
+										<tbody>
+											<tr class="down new">
+												<td>
+													<div class="title">
+														<a href="" class="link">Тройка Диалог</a>
+													</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:50%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="title">
+														<a href="" class="link">Четверка Монолог</a>
+													</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:60%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="top up">
+												<td>
+													<div class="title">
+														<a href="" class="link">Пятерочка</a>
+													</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:90%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="title">
+														<a href="" class="link">Шестерка Джо</a>
+													</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:70%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="title">
+														<a href="" class="link">Семеро одного не ждут</a>
+													</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:50%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div><!-- rate-stats-group-inner -->
+						</div><!-- rate-stats-group -->
+
+						<div class="rate-stats-group">
+							<div class="rate-stats-group-inner">
+								<div class="rate-stats-title">Лучшие<br />руководители</div>
+								<div class="rate-stats-note">Все руководители (188/3 новых)</div>
+								<div class="rate-stats-data">
+									<table>
+										<tbody>
+											<tr class="up">
+												<td>
+													<div class="title">Красавчик Джо</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:50%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="new">
+												<td>
+													<div class="title">Милая Мэри</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:60%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="top down">
+												<td>
+													<div class="title">Крошка Сью</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:90%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="title">Жора Обаяшка</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:70%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="title">Гусев Александр</div>
+												</td>
+												<td>
+													<div class="progress-bar">
+														<div class="progress-bar-line" style="width:50%">
+															<div class="progress-bar-rate">
+																<div class="progress-bar-rate-inner">100 000 голосов</div>
+															</div>
+														</div>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div><!-- rate-stats-group-inner -->
+						</div><!-- rate-stats-group -->
+					</div><!-- rate-stats -->
+				</div><!-- body-block_rate-stats -->
+			</div><!-- body-section_rate-stats -->
+		</div><!-- body-top -->
+
+		<div class="body-bottom">
+			<div class="body-section body-section_footer">
+				<div class="body-block body-block_footer">
+					<div class="footer"></div><!-- footer -->
+				</div><!-- body-block_footer -->
+			</div><!-- body-section_footer -->
+		</div><!-- body-bottom -->
+	</div><!-- body -->
+</body>
+</html>

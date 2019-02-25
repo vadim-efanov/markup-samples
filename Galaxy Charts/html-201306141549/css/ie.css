@@ -1,0 +1,123 @@
+
+
+.b-master_login .b-header,
+.b-master_login .b-header_in {
+	border: none;
+	filter:none;
+}
+
+.b-header {
+	border: 1px solid #c7d2df;
+	zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 );
+}
+
+.b-header-search {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ededed',GradientType=0 );
+	zoom: 1;
+}
+
+.b-body-section_popup {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9ffffff', endColorstr='#d9ffffff',GradientType=0 );
+	zoom: 1;
+}
+
+*+html .b-chart-theme-preview {
+	display: block;
+}
+
+*+html .b-chart-theme-text {
+	display: block;
+}
+
+*+html .b-chart-theme-select {
+	display: block;
+}
+
+*+html .b-chart-theme-select-item {
+	display: block;
+}
+
+*+html .b-button {
+	display:inline;
+}
+
+.b-button-text {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#b1b1b1',GradientType=0 );
+	zoom: 1;
+}
+
+.b-button-text:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#cccccc',GradientType=0 );
+}
+
+.b-button_ok .b-button-text {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8000', endColorstr='#ff6100',GradientType=0 ); /* IE6-8 */
+	zoom: 1;
+}
+
+.b-button_ok .b-button-text:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa300', endColorstr='#ff7b00',GradientType=0 ); /* IE6-8 */
+}
+
+.b-button_transparent .b-button-text,
+.b-button_transparent-2 .b-button-text {
+	filter:none;
+}
+
+.b-button_off .b-button-text {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#919191', endColorstr='#7c7c7c',GradientType=0 );
+}
+
+.b-button_off .b-button-text:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#8e8e8e',GradientType=0 );
+}
+
+*+html .b-pager-inner {
+	display: inline;
+}
+
+*+html .b-sorted {
+	display: inline;
+}
+
+*+html .b-ajaxed {
+	display: inline;
+}
+
+.b-ajaxed-loader {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80ffffff',GradientType=0 );
+	zoom: 1;
+}
+
+*+html .b-license-add .b-col,
+*+html .b-purchase .b-col {
+	display: inline;
+}
+
+*+html .b-license-add .b-input-text,
+*+html .b-license-add .b-textarea,
+*+html .b-purchase .b-input-text,
+*+html .b-purchase .b-textarea {
+	width: 96%;
+}
+
+*+html .b-license-add .b-input-text.b-half-size,
+*+html .b-license-add .b-textarea.b-half-size {
+	width: 42%;
+}
+
+*+html .b-purchase .b-group-item_subscribe .b-label {
+	display: inline;
+}
+
+*+html .b-chart-theme-preview,
+*+html .b-chart-theme-text,
+*+html .b-chart-theme-select,
+*+html .b-chart-theme-select-item {
+	display: inline;
+}
+
+*+html #edition-popup .b-buttons_multiple {
+	display: inline;
+}

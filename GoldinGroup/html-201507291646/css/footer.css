@@ -1,0 +1,17 @@
+/* Footer */
+
+.footer {}
+
+.footer .body-block {
+	padding: 1em;
+}
+
+.footer .col {
+	vertical-align: bottom;
+}
+
+.footer .col-02 {
+	text-align: right;
+}
+
+/* end of Footer */

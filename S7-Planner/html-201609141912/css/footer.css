@@ -1,0 +1,38 @@
+/* Footer */
+
+.footer {
+	background: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 4px rgba(0,0,0,0.3);
+	box-shadow: 0 0 4px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 1;
+}
+
+.footer > .cols > .col {
+	padding: 1em;
+	vertical-align: middle;
+}
+
+.footer > .cols > .col_02 {
+	text-align: right;
+}
+
+.footer-copy {
+	display: inline-block;
+}
+
+.footer-copy .text {
+	font-size: 120%;
+}
+
+.footer .link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.footer .link:hover {
+	text-decoration: underline;
+}
+
+/* end of Footer */

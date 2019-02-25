@@ -1,0 +1,139 @@
+/* Typography */
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+.mce-content-body {
+	padding: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+pre,
+blockquote,
+table,
+p {
+	margin: 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6,
+* + ol,
+* + ul,
+* + pre,
+* + blockquote,
+* + table,
+* + p {
+	margin: 0.5em 0 0;
+}
+
+li + li {
+	margin: 0.2em 0 0;
+}
+
+h1 {
+	font-size: 200%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 180%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 150%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 130%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 120%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 110%;
+	font-style: normal;
+	font-weight: bold;
+}
+
+a,
+.link {
+	color: #ADC400;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover,
+.link:hover {
+	color: #ADC400;
+	text-decoration: underline;
+}
+
+.pseudo-link {
+	border-bottom: 1px dashed #ADC400;
+	color: #ADC400;
+	cursor: pointer;
+	display: inline;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	table-layout: auto;
+}
+
+th,
+td {
+	color: inherit;
+	font: inherit;
+	padding: 0.5em;
+	vertical-align: top;
+}
+
+th {
+	background-color: #eee;
+}
+
+td {
+	background-color: #fff;
+}
+
+tr + tr > th,
+tr + tr > td {
+	border-top: 1px solid #eee;
+}
+
+/* end of Typography */

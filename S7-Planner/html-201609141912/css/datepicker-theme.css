@@ -1,0 +1,143 @@
+/*Date Picker style*/
+#ui-datepicker-div {
+	width: auto !important;
+	height: auto !important;
+	background: #fff;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	padding: 0;
+	z-index: 1055 !important;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	border: 1px solid #ccc;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 47%;
+	height: 22px;
+}
+
+.ui-datepicker select.ui-datepicker-month {
+	margin-right: 10px;
+}
+
+.ui-datepicker .ui-datepicker-prev.ui-datepicker-prev-hover {
+	top: 2px;
+	left: 2px;
+}
+
+.ui-datepicker .ui-datepicker-next.ui-datepicker-next-hover {
+	top: 2px;
+	right: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev .ui-icon-circle-triangle-w,
+.ui-datepicker .ui-datepicker-next .ui-icon-circle-triangle-e {
+	width: 12px;
+	height: 12px;
+	margin-top: -6px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMBAMAAACkW0HUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAPUExURQAAAGtra2lpaWpqamtra1vrPuMAAAAEdFJOUwBwdI/RNiyJAAAAIklEQVQI12NgYGAQcTEAkowuzgx4OUwujgwQQQEsXEYEFwADogX9C6ATBAAAAABJRU5ErkJggg==');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.ui-datepicker .ui-datepicker-next .ui-icon-circle-triangle-e {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMBAMAAACkW0HUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAASUExURQAAAGpqamtra2pqampqamtraz1TMEgAAAAFdFJOUwBUcI/7RIFZBAAAACFJREFUCNdjYA4NYgAB01AFEIWfKxpqACQZXYNBHBFcHABE4weU8LY43wAAAABJRU5ErkJggg==');
+}
+
+.ui-datepicker .ui-datepicker-prev.ui-state-disabled .ui-icon-circle-triangle-w,
+.ui-datepicker .ui-datepicker-next.ui-state-disabled .ui-icon-circle-triangle-e {
+	-ms-opacity: .3;
+	opacity: .3;
+}
+
+.ui-datepicker .ui-datepicker-calendar {
+	margin-bottom: 0;
+}
+
+.ui-datepicker th,
+.ui-datepicker td {
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.ui-datepicker th {
+	border-bottom-width: 2px;
+	padding: 5px 15px;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+	font-size: 11px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 7px 18px;
+}
+
+.ui-datepicker td span {
+	color: #ccc;
+}
+
+.ui-datepicker td a {
+	color: #262626;
+}
+
+.ui-datepicker .ui-datepicker-today {
+	background: #eee;
+}
+
+.ui-datepicker .ui-state-active {
+	border: 2px solid #AFD602;
+	padding: 5px 16px;
+}
+
+/*.form-inline .calendar-content .input-group .form-control {
+	-webkit-box-shadow: none;
+	-ms-box-shadow: none;
+	box-shadow: none;
+}*/
+
+/*.form-inline .calendar-content .input-group .form-control[disabled] {
+	color: #ccc;
+	border-color: #ddd;
+	background-color: #fff;
+}*/
+
+/*.form-inline .calendar-content .input-group .input-group-addon.disabled {
+	border-color: #ddd;
+}*/
+
+/*.form-inline .calendar-content .input-group .input-group-addon {
+	border-left: 0;
+}*/
+
+/*.calendar-icon {
+	display: table-cell;
+	position: relative;
+	width: 32px !important;
+	height: 32px;
+	margin-bottom: 0;
+	cursor: pointer;
+	background-color: #fff;
+}*/
+
+/*.calendar-icon:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: 8px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAABeUlEQVQ4T5XTTStEYRiHcc2aTyBFMiIvCWVhg52dtw0WSFYUvgIp74UsJGUzsbFQ9tixo2wJaZosRhbeZsR1Tc9IndWc+tXdff+fuzPnnCnKX0c3sRLs4BEDof130RvCEzZQHNq5QRydaMU1PrCCJnQF1pv4wiWa4Zm4C05wizlc4AW7OMRdcIB9vOIcZj1z7IIsfnCKNXh4C/ewL+tt7GERZu1nXJAPvcOfcAYPfCM/s7bn7Apmc7P8HTzjoUCeybogDW+rp0CeSbsgid7QXEcjOuDragus7TkzY9Yzyf8LlvAGh9PwlY0E1vacmTEbWdCAPpSiCv0oD6ztOTNjNrKgHZOohB/OFGoDa3vOzJiNLFhFJtSz8DWNBdb2nJkxG1ngwxpHBeoxgerA2p4zM2YjC/y+B1GGGgzDW5a1PWdmzEYW+Af6DPUM/PpGA2t7zsyYjSzoxjzq4ENaQEtgbc+ZGbN/C1JYhq+qEJ5JuSAB78JFheBMLPELU7tEkMyv3A4AAAAASUVORK5CYII=');
+	background-position: center center;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 18px;
+}*/
+/*End of Date Picker style*/

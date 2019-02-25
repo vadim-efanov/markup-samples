@@ -1,0 +1,23 @@
+/* Icons */
+
+.icon {
+	background: 50% 50% no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.icon_logo-oneworld {
+	background-image: url('../img/icon-logo-oneworld.svg');
+	height: 50px;
+	width: 50px;
+}
+
+.icon_logo-s7-profi {
+	background-image: url('../img/icon-logo-s7-profi.svg');
+	height: 50px;
+	width: 120px;
+}
+
+/* end of Icons */

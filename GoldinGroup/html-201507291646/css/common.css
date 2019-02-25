@@ -1,0 +1,31 @@
+/* Common Styles */
+
+body {
+	background: #15130D;
+	color: #D8D6C0;
+	font-family: 'Geometria', sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.image-wrapper {
+	overflow: hidden;
+}
+
+.image-wrapper .image {
+	display: block;
+	max-width: 100%;
+}
+
+.cols {
+	display: table;
+	width: 100%;
+}
+
+.cols > .col {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* end of Common Styles */

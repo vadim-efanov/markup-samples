@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Planer S7</title>
+	<link rel="stylesheet" href="css/app.css"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="libs/moment/moment-with-locales.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+	<script src="libs/select2/select2.min.js"></script>
+	<script src="libs/tinymce/tinymce.min.js"></script>
+	<script src="libs/tinymce/jquery.tinymce.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+<div class="body">
+	<div class="body-row body-row_head">
+		<div class="body-cell body-cell_head">
+			<div class="header">
+				<div class="cols">
+					<div class="col col_01">
+						<div class="icons header-icons">
+							<span class="icon icon_header-oneworld"></span>
+							<span class="icon icon_header-s7"></span>
+						</div>
+					</div><!--col-->
+					<div class="col col_02">
+						<div class="header-logo">
+							<a href="" class="link">
+								<span class="icon icon_header-logo"></span>
+								<span class="text">Planer</span>
+							</a>
+						</div><!--header-logo-->
+					</div><!--col-->
+					<div class="col col_03">
+						<div class="header-user">
+							<div class="image-wrapper">
+								<img src="images/no-photo-small.png" alt="" class="image"/>
+							</div>
+							<div class="name">Хитроумный идальго Дон Кихот Ламанчский</div>
+						</div><!--header-user-->
+						<div class="header-logout">
+							<a href="" class="link">
+								<span class="icon icon_header-logout"></span>
+							</a>
+						</div><!--header-logout-->
+					</div><!--col-->
+				</div><!--cols-->
+			</div><!--header-->
+		</div><!--body-cell-->
+	</div><!--body-row-->
+	<div class="body-row body-row_body">
+		<div class="body-cell body-cell_body">
+			<div class="body-block body-block_task-new">
+				<div class="icon icon_go-prev"></div>
+				<div class="task-new">
+					<div class="task-new-head">
+						<div class="title">Новая задача</div>
+					</div><!--task-new-head-->
+					<div class="task-new-body">
+						<form class="form" action="">
+							<div class="form-item form-item_task-title">
+								<div class="form-item-head">
+									<div class="title">Название</div>
+								</div>
+								<div class="form-item-body">
+									<input type="text" class="input-text"/>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-start">
+								<div class="form-item-head">
+									<div class="title">Дата начала</div>
+								</div>
+								<div class="form-item-body">
+									<div class="datepicker-wrapper">
+										<input type="text" class="input-text datepicker"/>
+									</div>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-end">
+								<div class="form-item-head">
+									<div class="title">Дата завершения</div>
+								</div>
+								<div class="form-item-body">
+									<div class="datepicker-wrapper">
+										<input type="text" class="input-text datepicker"/>
+									</div>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-importance">
+								<div class="form-item-head">
+									<div class="title">Срочность</div>
+								</div>
+								<div class="form-item-body">
+									<select name="" id="" class="select select2">
+										<option value="">Value 1</option>
+										<option value="">Value 2</option>
+									</select>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-description">
+								<div class="form-item-head">
+									<div class="title">Описание</div>
+								</div>
+								<div class="form-item-body">
+									<textarea name="" id="" class="textarea tinymce"></textarea>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-executors">
+								<div class="form-item-head">
+									<div class="title">Исполнители</div>
+								</div>
+								<div class="form-item-body">
+									<select name="" id="" class="select select2" multiple="">
+										<option value="Value 1">Value 1</option>
+										<option value="Value 2">Value 2</option>
+										<option value="Value 3">Value 3</option>
+										<option value="Value 4">Value 4</option>
+										<option value="Value 5">Value 5</option>
+									</select>
+								</div>
+							</div><!--form-item-->
+							<div class="radio-nav">
+								<div class="radio-nav-item" data-radio-nav="task-participants">
+									<span class="pseudo-link">Участники</span>
+								</div>
+								<div class="radio-nav-item" data-radio-nav="task-responsibility">
+									<span class="pseudo-link">Ответственные</span>
+								</div>
+								<div class="radio-nav-item" data-radio-nav="task-manager">
+									<span class="pseudo-link">Постановщик</span>
+								</div>
+								<div class="radio-nav-item" data-radio-nav="task-parent">
+									<span class="pseudo-link">Надзадача</span>
+								</div>
+								<div class="radio-nav-item active" data-radio-nav="task-attachments">
+									<span class="pseudo-link">Файлы</span>
+								</div>
+							</div><!--radio-nav-->
+							<div class="form-item form-item_task-participants" data-radio-nav="task-participants">
+								<div class="form-item-head">
+									<div class="title">Участники</div>
+									<div class="icon icon_cross2 radio-nav-close"></div>
+								</div>
+								<div class="form-item-body">
+									<input type="text" class="input-text"/>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-responsibility" data-radio-nav="task-responsibility">
+								<div class="form-item-head">
+									<div class="title">Ответственные</div>
+									<div class="icon icon_cross2 radio-nav-close"></div>
+								</div>
+								<div class="form-item-body">
+									<input type="text" class="input-text"/>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-manager" data-radio-nav="task-manager">
+								<div class="form-item-head">
+									<div class="title">Постановщик</div>
+									<div class="icon icon_cross2 radio-nav-close"></div>
+								</div>
+								<div class="form-item-body">
+									<input type="text" class="input-text"/>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-parent" data-radio-nav="task-parent">
+								<div class="form-item-head">
+									<div class="title">Надзадача</div>
+									<div class="icon icon_cross2 radio-nav-close"></div>
+								</div>
+								<div class="form-item-body">
+									<input type="text" class="input-text"/>
+								</div>
+							</div><!--form-item-->
+							<div class="form-item form-item_task-attachments active" data-radio-nav="task-attachments">
+								<div class="form-item-head">
+									<div class="title">Файлы</div>
+									<div class="icon icon_cross2 radio-nav-close"></div>
+								</div>
+								<div class="form-item-body">
+									<div class="file-upload">
+										<div class="file-upload-loaded">
+											<div class="title">Загруженные файлы:</div>
+											<div class="file-upload-items">
+												<div class="file-upload-item">
+													<span class="icon icon_link"></span>
+													<span class="filename">Lorem-ipsum.pdf</span>
+													<span class="icon icon_cross"></span>
+												</div><!--file-upload-item-->
+												<div class="file-upload-item">
+													<span class="icon icon_link"></span>
+													<span class="filename">Lorem-ipsum.pdf</span>
+													<span class="icon icon_cross"></span>
+												</div><!--file-upload-item-->
+											</div><!--file-upload-items-->
+										</div><!--file-upload-loaded-->
+										<div class="file-upload-loaded">
+											<div class="title">Файлы для загрузки:</div>
+											<div class="file-upload-items">
+												<div class="file-upload-item">
+													<span class="icon icon_link"></span>
+													<span class="filename">Lorem-ipsum.pdf</span>
+													<span class="icon icon_cross"></span>
+												</div><!--file-upload-item-->
+												<div class="file-upload-item">
+													<span class="icon icon_link"></span>
+													<span class="filename">Lorem-ipsum.pdf</span>
+													<span class="icon icon_cross"></span>
+												</div><!--file-upload-item-->
+											</div><!--file-upload-items-->
+										</div><!--file-upload-loaded-->
+										<div class="file-upload-loaded">
+											<div class="file-upload-items">
+												<div class="file-upload-item2">
+													<div class="cols">
+														<div class="col col_01">
+															<div class="image-wrapper">
+																<img src="images/file-photo.png" alt="" class="image"/>
+																<span class="icon icon_delete-file"></span>
+															</div>
+														</div><!--col-->
+														<div class="col col_02">
+															<div class="filename">Lorem-ipsum.pdf</div>
+															<div class="filesize">7224 Кб</div>
+														</div><!--col-->
+													</div><!--cols-->
+												</div><!--file-upload-item2-->
+												<div class="file-upload-item2">
+													<div class="cols">
+														<div class="col col_01">
+															<div class="image-wrapper">
+																<img src="images/file-photo.png" alt="" class="image"/>
+																<span class="icon icon_delete-file"></span>
+															</div>
+														</div><!--col-->
+														<div class="col col_02">
+															<div class="filename">Lorem-ipsum.pdf</div>
+															<div class="filesize">7224 Кб</div>
+														</div><!--col-->
+													</div><!--cols-->
+												</div><!--file-upload-item2-->
+												<div class="file-upload-item2">
+													<div class="cols">
+														<div class="col col_01">
+															<div class="image-wrapper">
+																<img src="images/file-photo.png" alt="" class="image"/>
+																<span class="icon icon_delete-file"></span>
+															</div>
+														</div><!--col-->
+														<div class="col col_02">
+															<div class="filename">Lorem-ipsum.pdf</div>
+															<div class="filesize">7224 Кб</div>
+														</div><!--col-->
+													</div><!--cols-->
+												</div><!--file-upload-item2-->
+											</div><!--file-upload-items-->
+										</div><!--file-upload-loaded-->
+										<div class="file-upload-dropbox">
+											<span class="icon icon_dropbox"></span>
+											<span class="text">Перетащите сюда файл или <label class="label link link_file-upload">выберите<input type="file" class="input-file"/></label></span>
+										</div><!--file-upload-dropbox-->
+									</div><!--file-upload-->
+								</div>
+							</div><!--form-item-->
+							<div class="buttons">
+								<button class="button button_color-green button_size-big">Создать задачу</button>
+								<button class="button button_color-gray button_size-big">Отмена</button>
+							</div><!--buttons-->
+						</form>
+					</div><!--task-new-body-->
+				</div><!--task-new-->
+			</div><!--body-block-->
+		</div><!--body-cell-->
+	</div><!--body-row-->
+	<div class="body-row body-row_foot">
+		<div class="body-cell body-cell_foot">
+			<div class="footer">
+				<div class="cols">
+					<div class="col col_01">
+						<div class="footer-copy">
+							<span class="text"><a href="" class="link">S7 Airlines</a> 2015 &copy;</span>
+						</div>
+					</div><!--col-->
+					<div class="col col_02">
+						<div class="footer-webmaster">
+							<span class="text">Разработка &mdash; <a href="" class="link">EastBanc Technologies</a></span>
+						</div>
+					</div><!--col-->
+				</div><!--cols-->
+			</div><!--footer-->
+		</div><!--body-cell-->
+	</div><!--body-row-->
+</div><!--body-->
+</body>
+</html>

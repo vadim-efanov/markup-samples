@@ -1,0 +1,123 @@
+/* Home */
+
+.home-spacers {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 1px;
+}
+
+.home-spacer,
+.home-spacer .body-block {
+	height: 100%;
+}
+
+.home-spacer a {
+	display: block;
+	height: 100%;
+}
+
+.home-nav {
+	bottom: 10px;
+	position: fixed;
+	right: 10px;
+	z-index: 2;
+}
+
+.home-nav .item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.home-nav .link {
+	color: inherit;
+	display: block;
+	font-family: 'RobotoSlab', sans-serif;
+	line-height: 40px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+.home-nav .item.active .link,
+.home-nav .item .link.active {
+}
+
+.home-screens {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.home-screen {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.home-screen .body-block,
+.home-screen .cols {
+	height: 100%;
+}
+
+.home-screen .cols {
+	position: relative;
+	z-index: 1;
+}
+
+.home-screen .col {
+	padding: 2em;
+}
+
+.home-screen .letter {
+	font-family: 'RobotoSlab', sans-serif;
+	font-size: 800%;
+}
+
+.home-screen .quote {
+	font-family: 'RobotoSlab', sans-serif;
+	font-size: 200%;
+	letter-spacing: 0.1em;
+	line-height: 1.6;
+}
+
+.home-screen .text {
+	line-height: 2;
+}
+
+.home-screen p + p {
+	margin-top: 1em;
+}
+
+.home-screen-01 .image-wrapper,
+.home-screen-02 .image-wrapper,
+.home-screen-03 .image-wrapper,
+.home-screen-04 .image-wrapper,
+.home-screen-05 .image-wrapper {
+	position: absolute;
+	top: 0;
+	z-index: 0;
+}
+
+.home-screen-01 .image-wrapper,
+.home-screen-03 .image-wrapper,
+.home-screen-05 .image-wrapper {
+	left: 0;
+}
+
+.home-screen-02 .image-wrapper,
+.home-screen-04 .image-wrapper {
+	right: 0;
+}
+
+.home-screen-contact .button {
+	width: 100%;
+}
+
+/* end of Home */

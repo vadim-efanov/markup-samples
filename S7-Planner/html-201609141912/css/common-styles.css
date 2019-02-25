@@ -1,0 +1,440 @@
+/* Misc Elements */
+
+.body-block > .icon_go-prev {
+	cursor: pointer;
+	float: left;
+	margin-left: -34px;
+	margin-top: 20px;
+}
+
+#layoutMask {
+	background-color: #000;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+}
+
+/* end of Misc Elements */
+
+/* Task Content */
+
+.task-content > .cols > .col {
+	padding: 1em;
+	vertical-align: top;
+}
+
+.task-content > .cols > .col_01 {
+	width: auto;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.task-content > .cols > .col_02 {
+	width: 200px;
+}
+
+.task-content .button {
+	display: block;
+	width: 100%;
+}
+
+.task-content .button + .button {
+	margin-top: 0.5em;
+}
+
+.task-content .text {
+	overflow: auto;
+}
+
+/* end of Task Content */
+
+/* Task Status Highlight */
+
+.task-title.status-draft .text {
+	color: #C3C3C2;
+}
+.task-title.status-new .text {
+	color: #00A5D4;
+}
+.task-title.status-underway .text {
+	color: #4F4F4F;
+}
+.task-title.status-rejected .text {
+	color: #818181;
+}
+.task-title.status-canceled .text {
+	color: #FFC400;
+}
+.task-title.status-performed .text {
+	color: #BBCF32;
+}
+.task-title.status-completed .text {
+	color: #C5C5C4;
+	text-decoration: line-through;
+}
+
+/* end of Task Status Highlight */
+
+/* Task Track */
+
+.task-history {}
+
+.task-history-head > .cols > .col {
+	vertical-align: middle;
+}
+
+.task-history-head .title {
+	font-size: 130%;
+}
+
+.task-history-head .radio-nav2 {
+	margin: auto 0 auto auto;
+}
+
+.task-history-head {
+	padding: 1em;
+}
+
+.task-history-body {
+	padding: 1em;
+}
+
+.task-history-view {
+	display: none;
+}
+
+.task-history-view.active {
+	display: block;
+}
+
+.task-track {
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.task-track-item {
+	display: inline-block;
+	font-size: 0.75rem;
+	margin-right: -4px;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.task-track-item_dots {}
+
+.task-track-item .status,
+.task-track-item .date,
+.task-track-item .name {
+	min-width: 60px;
+	padding-right: 40px;
+}
+
+.task-track-item .date,
+.task-track-item .name {
+	color: #999;
+}
+
+.task-track-item .status {
+	border: solid #ccc;
+	border-width: 0 0 1px;
+	padding-bottom: 1em;
+	position: relative;
+}
+
+.task-track-item:last-child .status,
+.task-track-item.last .status {
+	border-color: transparent;
+}
+
+.task-track-item .icon {
+	background: #fff;
+	bottom: 0;
+	left: 0;
+	margin: -8px 0;
+	position: absolute;
+}
+
+.task-track-item .date {
+	padding-top: 1em;
+}
+
+.task-track2 {}
+
+.task-track2-item {
+	padding: 1em 1em 1em 1.5em;
+	position: relative;
+}
+
+.task-track2-item:before {
+	background: #ccc;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	content: '';
+	height: 8px;
+	left: 0.5em;
+	margin: -4px;
+	position: absolute;
+	top: 1.7em;
+	width: 8px;
+}
+
+.task-track2-item:after {
+	border-left: 1px solid #ccc;
+	bottom: -1.7em;
+	content: '';
+	left: 0.5em;
+	margin: 8px 0;
+	position: absolute;
+	top: 1.7em;
+	width: 10px;
+}
+
+.task-track2-item.last:after,
+.task-track2-item:last-child:after {
+	display: none;
+}
+
+.task-track2-item-head .name,
+.task-track2-item-head .date {
+	display: inline-block;
+}
+
+.task-track2-item-head .date {
+	color: #999;
+	font-size: 90%;
+	margin-left: 1em;
+}
+
+.task-track2-item-body {
+	padding-top: 0.5em;
+}
+
+.task-track2-item-change {
+	font-size: 90%;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.task-track2-item-change + .task-track2-item-change {
+	margin-top: 0.5em;
+}
+
+.task-track2-item-change > * {
+	vertical-align: middle;
+}
+
+.task-track2-item-change .title {
+	color: #999;
+}
+
+/* end of Task Track */
+
+/* Radio Nav */
+
+.radio-nav {
+	cursor: default;
+}
+
+.radio-nav-item {
+	background: transparent;
+	display: inline-block;
+	padding: 0.4em 0.8em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+}
+
+.radio-nav-item.active {
+	background-color: #eee;
+	-webkit-box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+	box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+
+.radio-nav-item.active .pseudo-link {
+	border-color: transparent;
+	color: inherit;
+}
+
+.radio-nav2 {
+	border-collapse: collapse;
+	display: table;
+}
+
+.radio-nav2-item {
+	border: 1px solid #aaa;
+	cursor: pointer;
+	display: table-cell;
+	padding: 0.2em 0.4em;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+}
+
+.radio-nav2-item .text {
+	display: block;
+	font-size: 90%;
+}
+
+.radio-nav2-item.active {
+	background-color: #aaa;
+	color: #fff;
+	cursor: default;
+	z-index: 1;
+}
+
+/* end of Radio Nav */
+
+/* File Upload */
+
+.file-upload {
+	border: 1px solid #ccc;
+	padding: 1em;
+}
+
+.file-upload > * + * {
+	margin-top: 1em;
+}
+
+.file-upload-loaded .title {}
+
+.file-upload-items {}
+
+.file-upload-item {
+	display: inline-block;
+	background: #eee;
+	margin-top: 0.2em;
+	white-space: nowrap;
+}
+
+.file-upload-item > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.file-upload-item .icon {
+	margin: 0 0.5em;
+}
+
+.file-upload-item .filename {
+	max-width: 150px;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.file-upload-item .icon_cross {
+	cursor: pointer;
+}
+
+.file-upload-item2 {
+	display: inline-block;
+	width: 32%;
+}
+
+.file-upload-item2 .col {
+	vertical-align: top;
+}
+
+.file-upload-item2 .col_01 {
+	width: 53px;
+}
+
+.file-upload-item2 .col_02 {
+	padding-left: 0.5em;
+}
+
+.file-upload-item2 .image-wrapper {
+	background: #eee;
+	height: 0;
+	overflow: hidden;
+	padding: 0 0 100%;
+	position: relative;
+}
+
+.file-upload-item2 .image {
+	display: block;
+	width: 100%;
+}
+
+.file-upload-item2 .icon_delete-file {
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.file-upload-item2 .filename {
+	font-size: 90%;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.file-upload-item2 .filesize {
+	color: #999;
+	font-size: 80%;
+}
+
+.file-upload-dropbox {
+	background: #eee;
+	border: 1px dashed #ccc;
+	height: 100px;
+	margin-top: 1em;
+	overflow: auto;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.file-upload-dropbox:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.file-upload-dropbox > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.file-upload-dropbox .text {
+	color: #999;
+}
+
+.file-upload-dropbox .icon {
+	margin-right: 1em;
+}
+
+label.link_file-upload,
+label.pseudo-link_file-upload {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+}/* Die, Bootstrap, die! */
+
+label.link_file-upload .input-file,
+label.pseudo-link_file-upload .input-file {
+	display: none;
+}
+
+/* end of File Upload */

@@ -1,0 +1,73 @@
+/* Articles */
+
+.articles {
+	background: rgba(0,0,0,0.5);
+	display: table;
+	height: 100%;
+	position: relative;
+	table-layout: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.articles .body-block {
+	padding: 8em 1em;
+}
+
+.articles .items {
+	padding: 2em 0 4em;
+	position: relative;
+	text-align: center;
+}
+
+.articles .items:before,
+.articles .items:after {
+	background: 50% 50% no-repeat;
+	content: '';
+	left: 50%;
+	position: absolute;
+}
+
+.articles .items:before {
+	background-image: url('../images/venzel2.png');
+	height: 10px;
+	margin: -5px -35px;
+	top: 0;
+	width: 70px;
+}
+
+.articles .items:after {
+	background-image: url('../images/venzel3.png');
+	bottom: 0;
+	height: 30px;
+	margin: -15px -13px;
+	width: 26px;
+}
+
+.articles .item {
+	position: relative;
+}
+
+.articles .item + .item {
+	margin-top: 2em;
+	padding-top: 2em;
+}
+
+.articles .item + .item:before {
+	background: url('../images/pin2.png') 50% 50% no-repeat;
+	content: '';
+	height: 10px;
+	left: 50%;
+	margin: -5px;
+	position: absolute;
+	top: 0;
+	width: 10px;
+}
+
+.articles .link {
+	color: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* end of Articles */

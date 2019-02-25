@@ -1,0 +1,148 @@
+/* Login */
+
+.login {
+	background: #BFC4AE url('../images/bg-login.jpg') 50% 50% no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.login .body-cell {
+	vertical-align: middle;
+}
+
+.login-footer {
+	color: #fff;
+	font-size: 90%;
+	padding: 0 0 3em;
+	text-align: center;
+}
+
+.login-footer .link {
+	color: inherit;
+}
+
+.login-modal {
+	margin: 1em auto;
+	max-width: 100%;
+	width: 390px;
+}
+
+.login-modal-head {
+	padding-bottom: 1.5em;
+}
+
+.login-modal-head .col_01 {
+	width: 220px;
+}
+
+.login-modal-head .col_02 {
+	text-align: right;
+}
+
+.login-modal-body {
+	background: rgba(0,0,0,0.5);
+}
+
+.login-modal-foot {
+	background: rgba(0,0,0,0.3);
+	padding: 1em;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.login-modal-foot .icon {
+	display: inline-block;
+	margin-right: 0.5em;
+	vertical-align: middle;
+}
+
+.login-modal-foot .link {
+	color: #fff;
+	font-size: 80%;
+}
+
+.login-logo {
+	white-space: nowrap;
+}
+
+.login-logo .icon {
+	margin-right: 1em;
+}
+
+.login-logo .title {
+	color: #fff;
+	font-size: 200%;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.login-modal .form-title {
+	color: #fff;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1;
+	white-space: nowrap;
+}
+
+.login-modal .form-item {
+	margin-top: 1em;
+}
+
+.login-modal .form-item:first-child {
+	margin-top: 0;
+}
+
+.login-modal .form-item .text {
+	color: #fff;
+	font-size: 90%;
+	margin-top: -0.5em;
+}
+
+.login-modal .form-item_button {
+	margin-top: 1.5em;
+}
+
+.login-modal .form-item_button .button {
+	width: 100%;
+}
+
+.login-modal .form-section {
+	padding: 2em;
+}
+
+.login-modal .form-section + .form-section {
+	border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.login-modal .input-text {
+	/*view background-image settings in 'icons' stylesheet*/
+	background-position: 0.5em 50%;
+	background-repeat: no-repeat;
+	border-color: transparent;
+	padding-left: 2.5em;
+}
+
+.login-modal .input-text:hover,
+.login-modal .input-text:focus {
+	border-color: #ADC400;
+	-webkit-box-shadow: inset 0 0 3px rgba(173,196,0,1);
+	-moz-box-shadow: inset 0 0 3px rgba(173,196,0,1);
+	box-shadow: inset 0 0 3px rgba(173,196,0,1);
+}
+
+.login-warning {
+	margin: 0.5em 0 -1em;
+	text-align: center;
+}
+
+.login-warning > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.login-warning .text {
+	color: #FF6C47;
+	font-size: 80%;
+}
+
+/* end of Login */

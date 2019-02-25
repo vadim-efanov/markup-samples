@@ -1,0 +1,16 @@
+<div class="body-group header header-bg active-articles" data-ng-include="'templates/header.html'"></div><!--body-group-->
+<div class="body-group article">
+	<div class="body-section">
+		<div class="body-block">
+			<div class="article-letter">{{currentArticle.letter}}</div>
+			<div class="article-title">{{currentArticle.title}}</div>
+			<div class="article-description">{{currentArticle.annotation}}</div>
+			<div class="article-text"  data-ng-bind-html="currentArticle.article_text"></div>
+			<div class="article-author">
+				<div class="article-author-name">{{currentArticle.author_name}}</div>
+				<div class="article-author-position">{{currentArticle.author_position}}</div>
+			</div>
+			<div class="article-date">{{currentArticle.date}}</div>
+		</div><!--body-block-->
+	</div><!--body-section-->
+</div><!--body-group-->

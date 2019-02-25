@@ -1,0 +1,58 @@
+/* Man */
+
+.man {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.man .body-section,
+.man .body-block {
+	height: 100%;
+	position: relative;
+}
+
+.man .body-block {
+	display: none;
+}
+
+.man .image-wrapper {
+	height: 100%;
+	left: 50%;
+	margin: 0 -4444em;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 8888em;
+}
+
+.man .image-wrapper .image {
+	display: block;
+	height: 100%;
+	margin: auto;
+}
+
+.man .man-face {
+	display: none;
+	z-index: 1;
+}
+
+.man-404 .man-face {
+	display: block;
+}
+
+.man .man-face-trigger {
+	cursor: pointer;
+	height: 30%;
+	left: 50%;
+	margin: 0 -30px;
+	position: absolute;
+	top: 0;
+	width: 60px;
+	z-index: 0;
+}
+
+/* end of Man */

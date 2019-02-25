@@ -1,0 +1,40 @@
+/* Bootstrap Datetimepicker Theme */
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.bootstrap-datetimepicker-widget table td,
+.bootstrap-datetimepicker-widget table th {
+	background: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.bootstrap-datetimepicker-widget table th.dow {
+	color: #adc400;
+}
+
+.bootstrap-datetimepicker-widget table td.today:before {
+	border-bottom-color: #adc400;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+	background-color: #adc400;
+}
+
+.bootstrap-datetimepicker-widget table td span {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.bootstrap-datetimepicker-widget table td span.active {
+	background-color: #adc400;
+}
+
+/* end of Bootstrap Datetimepicker Theme */

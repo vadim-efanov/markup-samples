@@ -1,0 +1,979 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Main - Galaxy Charts</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all"/>
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" media="all"/>
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body class="b-master b-master_main">
+	<div class="b-body">
+		<div class="b-body-top">
+			<div class="b-body-section b-body-section_header">
+				<div class="b-body-block b-body-block_header">
+					<div class="b-header">
+						<div class="b-header_in">
+							<div class="b-header-logo">
+								<div class="b-title">Galaxy Charts</div>
+								<div class="b-text">Have you galaxied today?</div>
+							</div><!-- b-header-logo -->
+							<ul class="b-header-menu">
+								<li class="b-header-menu-item">
+									<span class="b-header-menu-item_in">
+										<a href="#create" class="b-link">Create chart<span class="b-icon"></span></a>
+									</span>
+								</li>
+								<li class="b-header-menu-item">
+									<span class="b-header-menu-item_in">
+										<a href="#gc" class="b-link">Who we are</a>
+									</span>
+								</li>
+								<li class="b-header-menu-item">
+									<span class="b-header-menu-item_in">
+										<a href="#examples" class="b-link">Chart examples</a>
+									</span>
+								</li>
+								<li class="b-header-menu-item">
+									<span class="b-header-menu-item_in">
+										<a href="#edition" class="b-link">Buy</a>
+									</span>
+								</li>
+								<li class="b-header-menu-item">
+									<span class="b-header-menu-item_in">
+										<a href="#exlinks" class="b-link">External links</a>
+									</span>
+								</li>
+								<li class="b-header-menu-item">
+									<span class="b-header-menu-item_in">
+										<a href="#contact" class="b-link">Contact us</a>
+									</span>
+								</li>
+							</ul><!-- b-header-menu -->
+						</div><!-- b-header_in -->
+					</div><!-- b-header -->
+				</div><!-- b-body-block_header -->
+			</div><!-- b-body-section_header -->
+
+			<div class="b-body-section b-body-section_gc">
+				<span id="gc" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_gc">
+					<div class="b-gc">
+						<form action="">
+							<h2 class="b-title">What is a Galaxy Chart?</h2>
+							<p>A Galaxy Chart is a significant advance in data visualization that enables easy and effective presentation of data organized in a hierarchical, element structure.  A Galaxy Chart depicts all levels of the hierarchical data in a single chart, clearly illustrating proportions, magnitudes, and relationships among individual data elements.  Each element is represented by its own circle and all relationships between circles are illustrated using straight lines. All circles are sized proportionally by area and are arranged in a decreasing, clockwise manner.</p>
+							<p>Galaxy Charts are different and better than other chart types, such as Pie Charts, because they enable effective presentation of several levels of data and all element-to-element relationships in a single chart.  This unique aspect of Galaxy Charts offers the ability to interpret data in a more meaningful fashion, one that enables insight into what’s <span style="text-decoration: underline">really</span> important for making the most informed decisions.</p>
+							<div class="b-section-content-upload">
+								<span id="create" class="b-section-anchor"></span>
+								<input type="file" name="DataFileUpload" id="DataFileUpload" />
+								<span id="chart-theme-popup-button" class="b-button b-button_ok">
+									<span class="b-button-body">
+										<span class="b-button-text">Create chart</span>
+										<span class="b-button-icon"></span>
+										<span class="b-button-left"></span>
+										<span class="b-button-right"></span>
+									</span>
+								</span><!-- b-button -->
+							</div>
+							<div class="b-section-content-tip">supported file type: comma separated (.csv)</div>
+							<span data-valmsg-replace="true" data-valmsg-for="DataFileUpload" class="field-validation-error"><span for="DataFileUpload" generated="true" class="">Choose data file</span></span>
+							<ul class="b-section-content-menu">
+								<li class="b-section-content-menu-item">
+									<a href="" class="b-link" target="_blank">How safe is my data?</a>
+								</li>
+								<li class="b-section-content-menu-item">
+									<a href="" class="b-link" target="_blank">CSV Instructions</a>
+								</li>
+								<li class="b-section-content-menu-item">
+									<a href="" class="b-link" target="_blank">Sample CSV</a>
+								</li>
+							</ul>
+						</form>
+						<img src="images/i/ring_video.png" alt="" class="b-section-image" id="video-popup-button" />
+					</div><!-- b-gc -->
+				</div><!-- b-body-block_gc -->
+			</div><!-- b-body-section_gc -->
+
+			<div class="b-body-section b-body-section_examples">
+				<span id="examples" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_examples">
+					<div class="b-examples">
+						<h2 class="b-title">Chart Examples</h2>
+						<div class="b-examples-wrapper">
+							<div class="b-examples-prev"></div>
+							<div class="b-examples-next"></div>
+							<ul class="b-examples-slider">
+								<li class="b-examples-slider-item">
+									<img src="images/examples/01.png" alt="" class="b-image" />
+								</li>
+								<li class="b-examples-slider-item">
+									<img src="images/examples/02.png" alt="" class="b-image" />
+								</li>
+								<li class="b-examples-slider-item">
+									<img src="images/examples/03.png" alt="" class="b-image" />
+								</li>
+							</ul><!-- b-examples-slider -->
+						</div><!-- b-examples-wrapper -->
+					</div><!-- b-examples -->
+				</div><!-- b-body-block_examples -->
+			</div><!-- b-body-section_examples -->
+
+			<div class="b-body-section b-body-section_plugin">
+				<span id="plugin" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_plugin">
+					<div class="b-plugin">
+						<h2 class="b-title">Excel Plug-in Description</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maxime molestias odit assumenda quia non voluptas ducimus adipisci praesentium veritatis rerum soluta ad amet possimus labore minus cupiditate nobis deserunt!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam reprehenderit consectetur harum enim laboriosam neque exercitationem consequatur quia. Qui magnam sunt labore consequuntur at quasi cum itaque iusto cumque eaque!</p>
+						<img src="images/i/ring_plugin.png" alt="" class="b-section-image" />
+						<span class="b-button b-button_ok b-button_edition-popup">
+							<span class="b-button-body">
+								<span id="edition-popup-button" class="b-button-text">Galaxy Chart Edition Comparison</span>
+								<span class="b-button-icon"></span>
+								<span class="b-button-left"></span>
+								<span class="b-button-right"></span>
+							</span>
+						</span><!-- b-button -->
+					</div><!-- b-plugin -->
+				</div><!-- b-body-plugin -->
+			</div><!-- b-body-plugin -->
+
+			<div class="b-body-section b-body-section_edition">
+				<span id="edition" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_edition">
+					<div class="b-edition">
+						<ul class="b-edition-items">
+							<li class="b-edition-item">
+								<div class="b-edition-item-inner">
+									<div class="b-icon b-icon_web"></div>
+									<div class="b-title">Galaxy Charts <br /> Website Edition</div>
+									<div class="b-text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptate nostrum quisquam quo similique asperiores aliquid doloremque recusandae eius possimus sint illo dolores nisi laborum sapiente dolore et voluptatibus. Veritatis.</p>
+									</div>
+									<div class="b-price">
+										<span class="b-price_short-term">Free</span>
+									</div>
+									<div class="b-buttons b-buttons_multiple">
+										<span class="b-button b-button_ok">
+											<span class="b-button-body">
+												<span class="b-button-text">Buy</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+										<span class="b-button">
+											<span class="b-button-body">
+												<span class="b-button-text">Try</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+									</div>
+								</div><!-- b-edition-item-inner -->
+							</li><!-- b-edition-item -->
+							<li class="b-edition-item">
+								<div class="b-edition-item-inner">
+									<div class="b-icon b-icon_light"></div>
+									<div class="b-title">Galaxy Charts <br /> Light Edition</div>
+									<div class="b-text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor hic ipsam eveniet repellendus autem tempora quas dolorem maxime excepturi reprehenderit odit modi tenetur! Accusantium illo nihil ea aliquam omnis at.</p>
+									</div>
+									<div class="b-price">
+										<span class="b-price_long-term">$24.99</span>
+										<span class="b-price_short-term">$19.99</span>
+									</div>
+									<div class="b-buttons b-buttons_multiple">
+										<span class="b-button b-button_ok">
+											<span class="b-button-body">
+												<span class="b-button-text">Buy</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+										<span class="b-button">
+											<span class="b-button-body">
+												<span class="b-button-text">Try</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+									</div>
+								</div><!-- b-edition-item-inner -->
+							</li><!-- b-edition-item -->
+							<li class="b-edition-item">
+								<div class="b-edition-item-inner">
+									<div class="b-icon b-icon_standard"></div>
+									<div class="b-title">Galaxy Charts <br /> Standard Edition</div>
+									<div class="b-text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iste amet reiciendis mollitia architecto numquam sapiente sed praesentium dolor ea perferendis temporibus saepe voluptas? Nesciunt qui minus molestias ducimus dolore.</p>
+									</div>
+									<div class="b-price">
+										<span class="b-price_long-term">$69.99</span>
+										<span class="b-price_short-term">$49.99</span>
+									</div>
+									<div class="b-buttons b-buttons_multiple">
+										<span class="b-button b-button_ok">
+											<span class="b-button-body">
+												<span class="b-button-text">Buy</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+										<span class="b-button">
+											<span class="b-button-body">
+												<span class="b-button-text">Try</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+									</div>
+								</div><!-- b-edition-item-inner -->
+							</li><!-- b-edition-item -->
+							<li class="b-edition-item">
+								<div class="b-edition-item-inner">
+									<div class="b-icon b-icon_pro"></div>
+									<div class="b-title">Galaxy Charts <br /> Professional Edition</div>
+									<div class="b-text">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima est ea sit quos velit iste corporis aspernatur veritatis asperiores nulla quam illum temporibus cumque ab animi sed eius amet sequi. Vero perferendis impedit consequatur quasi iste officia voluptatem perspiciatis vitae quas dolores exercitationem dolorem omnis ipsam qui minima laudantium.</p>
+									</div>
+									<div class="b-price">
+										<span class="b-price_long-term">$129.99</span>
+										<span class="b-price_short-term">$99.99</span>
+									</div>
+									<div class="b-buttons b-buttons_multiple">
+										<span class="b-button b-button_ok">
+											<span class="b-button-body">
+												<span class="b-button-text">Buy</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+										<span class="b-button">
+											<span class="b-button-body">
+												<span class="b-button-text">Try</span>
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+									</div>
+								</div><!-- b-edition-item-inner -->
+							</li><!-- b-edition-item -->
+						</ul><!-- b-edition-items -->
+						<div class="b-edition-comparison-link">
+							<span class="b-link b-link_edition-comparison">Galaxy Chart Edition Comparison</span>
+						</div>
+					</div><!-- b-edition -->
+				</div><!-- b-body-edition -->
+			</div><!-- b-body-edition -->
+
+			<div class="b-body-section b-body-section_technomics">
+				<span id="technomics" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_technomics">
+					<div class="b-technomics">
+						<h2 class="b-title">About Technomics, Inc.</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maxime molestias odit assumenda quia non voluptas ducimus adipisci praesentium veritatis rerum soluta ad amet possimus labore minus cupiditate nobis deserunt!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam reprehenderit consectetur harum enim laboriosam neque exercitationem consequatur quia. Qui magnam sunt labore consequuntur at quasi cum itaque iusto cumque eaque!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi maxime obcaecati suscipit labore sint dolore laborum doloremque perspiciatis explicabo excepturi quos quidem magnam voluptas velit officiis facere quis odio cum?</p>
+						<p>Visit us at <a href="">www.technomics.net</a></p>
+						<img src="images/i/ring_about.png" alt="" class="b-section-image" />
+					</div><!-- b-technomics -->
+				</div><!-- b-body-block_technomics -->
+			</div><!-- b-body-section_technomics -->
+
+			<div class="b-body-section b-body-section_future">
+				<span id="future" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_future">
+					<div class="b-future">
+						<h2 class="b-title">The Future of Galaxy Charts</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aut at optio unde eveniet facilis facere nobis deleniti voluptatem quibusdam harum dolor illum labore. Dolorum iure dignissimos dicta quisquam! Laboriosam!</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae modi maxime accusamus minus unde ad tempora voluptates ex nihil quam blanditiis esse tenetur ipsam nam recusandae commodi autem iste sapiente.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quo molestiae alias odio sequi labore natus facilis et ea tempore dolor quis. Dolore totam iusto dicta temporibus fugiat eligendi minima.</p>
+						<div class="b-future b-stay-tuned">
+							<input type="text" class="b-input-text" placeholder="Your e-mail Address" name="email" id="email">
+							<span class="b-button b-button_ok">
+								<span class="b-button-body">
+									<input type="submit" class="b-button-text" value="Stay Tuned">
+									<span class="b-button-icon"></span>
+									<span class="b-button-left"></span>
+									<span class="b-button-right"></span>
+								</span>
+							</span>
+							<!-- b-button -->
+						</div>
+						<span data-valmsg-replace="true" data-valmsg-for="DataFileUpload" class="field-validation-error"><span for="DataFileUpload" generated="true" class="">Choose data file</span></span>
+						<img src="images/i/ring_future.png" alt="" class="b-section-image" />
+					</div><!-- b-future -->
+				</div><!-- b-body-block_future -->
+			</div><!-- b-body-section_future -->
+
+			<div class="b-body-section b-body-section_exlinks">
+				<span id="exlinks" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_exlinks">
+					<div class="b-exlinks">
+						<h2 class="b-title">External Links</h2>
+						<p>
+							<a href="">Technomics Inc.</a><br />
+							<a href="">Galaxy Chart Community</a><br />
+							<a href="">Award-winning Paper</a><br />
+							<a href="">More Information about Galaxy Charts</a>
+						</p>
+						<img src="images/i/ring_exlinks.png" alt="" class="b-section-image" />
+					</div><!-- b-exlinks -->
+				</div><!-- b-body-block_exlinks -->
+			</div><!-- b-body-section_exlinks -->
+
+			<div class="b-body-section b-body-section_contact">
+				<span id="contact" class="b-section-anchor"></span>
+				<div class="b-body-block b-body-block_contact">
+					<div class="b-contact">
+						<h2 class="b-title">Contact Us</h2>
+						<p>If you have any questions to our team about Galaxy Charts &trade; or something else &ndash; feel free to ask.</p>
+						<div class="b-cols">
+							<div class="b-col b-col_two-thirds">
+								<form action="">
+									<p><input type="text" placeholder="Your name" class="b-input-text" /></p>
+									<p><input type="text" placeholder="E-mail" class="b-input-text" /></p>
+									<p>
+										<select name="" id="" class="b-select">
+											<option value="">Here</option>
+											<option value="">There</option>
+											<option value="">Other</option>
+										</select>
+									</p>
+									<p><textarea name="" id="" cols="30" rows="10" class="b-textarea"></textarea></p>
+									<p>
+										<span class="b-button b-button_ok">
+											<span class="b-button-body">
+												<input type="submit" value="Send message" class="b-button-text" />
+												<span class="b-button-icon"></span>
+												<span class="b-button-left"></span>
+												<span class="b-button-right"></span>
+											</span>
+										</span><!-- b-button -->
+									</p>
+								</form>
+							</div><!-- b-col -->
+							<div class="b-col b-col_one-third">
+								<p>The primary purpose of the site is to turn data housed in a data file into a high-resolution image that draws the data as a Galaxy Chart.</p>
+								<p>Please fill out the questionnaire below. The answers gathered will serve as building blocks for your new website for the Galaxy Charts rendering service.</p>
+							</div><!-- b-col -->
+							<div class="b-social">
+								<div class="b-social-item b-social-item_facebook">
+									<a href="" class="b-link">
+										<span class="b-icon">Facebook</span>
+										<span class="b-text">Like us on Facebook</span>
+									</a>
+								</div>
+								<div class="b-social-item b-social-item_twitter">
+									<a href="" class="b-link">
+										<span class="b-icon">Twitter</span>
+										<span class="b-text">Follow us on Twitter</span>
+									</a>
+								</div>
+							</div><!-- b-social -->
+						</div><!-- b-cols -->
+						<span class="b-tail"></span>
+					</div><!-- b-contact -->
+				</div><!-- b-body-block_contact -->
+			</div><!-- b-body-section_contact -->
+
+			<div class="b-body-section b-body-section_smile">
+				<div class="b-body-block b-body-block_smile">
+					<div class="b-smile">
+						<span>Galaxy This!</span>
+					</div><!-- b-smile -->
+				</div><!-- b-body-block_smile -->
+			</div><!-- b-body-section_smile -->
+
+			<div id="video-popup" class="b-body-section b-body-section_popup" style="display:none;">
+				<div class="b-body-block b-body-block_popup">
+					<div class="b-popup b-popup_video">
+						<iframe height="360" frameborder="0" width="640" allowfullscreen="" src="https://www.youtube.com/embed/?list=PLMOPQgcMPJU9L23NONfoWGupVsL9deZn2&amp;loop=1&amp;autoplay=1"></iframe>
+						<span class="b-popup-hide js-popup-hide">&times;</span>
+					</div><!-- b-popup -->
+				</div><!-- b-body-block_popup -->
+			</div><!-- b-body-section_popup -->
+
+			<div id="chart-theme-popup" class="b-body-section b-body-section_popup" style="display:none;">
+				<div class="b-body-block b-body-block_popup">
+					<div class="b-popup b-popup_chart-theme">
+						<h2 class="b-title">Your Galaxy Chart is almost done!</h2>
+						<div class="b-chart-theme-preview">
+							<img src="images/theme-preview/theme-preview.png" alt="" class="b-image" />
+						</div>
+						<div class="b-chart-theme-text">
+							<div class="b-licence-wrapper">
+								<div class="b-licence">
+
+<p class="b-centered"><b>TERMS OF SERVICE</b></p>
+
+<p class="b-centered"><b><i>GALAXY CHARTS</i>™ <br />
+ONLINE DEMONSTRATION SERVICE</b></p>
+
+<p><b>IMPORTANT LEGALLY BINDING AGREEMENT</b></p>
+
+<p><b>PLEASE READ THE FOLLOWING TERMS OF SERVICE CAREFULLY BEFORE ACCESSING OR USING THE DEMONSTRATION VERSION OF THE GALAXY CHARTS™ ONLINE SERVICE OR ANY SOFTWARE OR RELATED DOCUMENTATION OR RELATED MATERIALS ACCESSIBLE OR AVAILABLE AT THE WEB SITE LOCATED AT <a href="">WWW.GALAXYCHARTS.COM</a> (COLLECTIVELY, THE <i>“SERVICE”</i>).  THESE TERMS OF SERVICE GOVERN YOUR ACCESS TO AND USE OF THE SERVICE AND CONSTITUTE A LEGALLY BINDING AGREEMENT (THIS <i>“AGREEMENT”</i>) BETWEEN TECHNOMICS, INC. (<i>“TECHNOMICS”</i>) AND YOU INDIVIDUALLY AND, IF YOU ARE ACCESSING OR USING THE SERVICE ON BEHALF OF A LEGAL ENTITY WITHIN THE SCOPE OF YOUR ENGAGEMENT OR RETENTION WITH THAT LEGAL ENTITY, THE LEGAL ENTITY ON BEHALF OF WHOM YOU ARE ACCESSING OR USING THE SERVICE (INDIVIDUALLY AND COLLECTIVELY, <i>“YOU”</i> OR <i>“YOUR”</i>).  YOUR ACCESS TO AND USE OF THE SERVICE ARE GOVERNED EXCLUSIVELY BY THIS AGREEMENT.</b></p>
+
+<p><b>BY CLICKING “I AGREE” OR BY ACCESSING OR USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD AND AGREE TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT, INCLUDING ANY CHANGES OR MODIFICATIONS MADE HERETO, AND TO COMPLY WITH ALL APPLICABLE LAWS AND REGULATIONS, AND YOU REPRESENT AND WARRANT THAT YOU ARE AUTHORIZED TO SIGN AND BIND YOURSELF AS A CONTRACTING PARTY TO THIS AGREEMENT AND ALL OF THE TERMS AND CONDITIONS HEREOF, INCLUDING, WITHOUT LIMITATION, THE DISCLAIMERS, LIMITATIONS OF LIABILITY AND INDEMNITY SECTIONS OF THIS AGREEMENT.  USE OF THE SERVICE IS AT YOUR OWN RISK.</b></p>
+
+<p><b>IF YOU DO NOT AGREE TO ANY OF THE TERMS OR CONDITIONS OF THIS AGREEMENT, DO NOT ACCESS OR USE THE SERVICE.</b></p>
+
+<p><b>1. The Service</b></p>
+
+<p>The Service is made available by Technomics to You on a demonstration only trial basis for Your personal, non-commercial, informational use solely for the limited purpose of generating a sample Galaxy Chart™ or Galaxy Charts™ using data uploaded or submitted by You to the Service.  The limited rights granted to you in this Agreement to access and use the Service do not convey or vest in You, and You shall have no, right, title, or interest in or to the Service.  You agree that Technomics or its licensors retain all proprietary right, title and interest, including copyright and all other intellectual property rights, in and to the Service.  This Agreement does not entitle you to receive any support or assistance from Technomics or any products or other services from Technomics.</p>
+
+<p><b>2. Code of Conduct</b></p>
+
+<p>You are responsible for all data and content that You upload or submit to the Service (collectively, “Data”).  In addition to any other terms and conditions of this Agreement, YOU AGREE TO ABIDE BY THE FOLLOWING RULES IN CONNECTION WITH YOUR ACCESS TO AND/OR USE OF THE SERVICE:</p>
+
+<ul>
+	<li>You will not use the Service for commercial purposes, including, without limitation, for publishing any Galaxy Charts™ generated through Your use of the Service unless You have, in each instance, obtained Technomics’ prior written consent with respect thereto.</li>
+	<li>Subject to the foregoing, Your use of any Galaxy Charts™ generated through Your use of the Service will be limited to Your downloading or printing any such Galaxy Charts™ for Your personal, non-commercial, informational use.</li>
+	<li>You will not remove or alter any trademark, logo, copyright or other proprietary notices, legends, symbols or labels used on or in connection with the Service, including, without limitation, any trademark, logo, copyright or other proprietary notices, legends, symbols or labels used or placed by Technomics on any Galaxy Charts™.</li>
+	<li>If the Service utilizes password access, You will not share passwords or other access information or devices or otherwise authorize any third party to access or use the Service on Your behalf.</li>
+	<li>You will not engage in unlawful or illegal activity, including, without limitation, by engaging in unauthorized access or unauthorized use of the Service or any accounts, computers or networks related to the Service.</li>
+	<li>You will not view any information that You are not authorized to view nor will You attempt to view or obtain any data through any means from the Service that You are not authorized to access or view.</li>
+	<li>You will not use the Service to breach or violate any confidentiality obligations or privacy requirements, including, without limitation, by collecting or harvesting confidential information.</li>
+	<li>You will not use the Service to misappropriate or violate the rights of any third party.</li>
+	<li>You represent, warrant and covenant that You have all necessary rights in and to all Data You upload to the Service, and that the use by Technomics of such Data to generate a Galaxy Chart™ or Galaxy Charts™ is proper and legal.</li>
+	<li>You will not damage, disrupt, interfere with, diminish, or render inaccessible or unusable the Service, the Site or others’ equipment or software or others’ data, communications or use of the Service, or attempt to do so, or encourage or assist others to do so.</li>
+	<li>You will not initiate a denial of service attack from or against the Service or release a virus, trojan horse, worms or other malware or spyware from or against the Service.</li>
+	<li>You will not use the Service to engage in fraudulent activity.</li>
+	<li>You will not use the Service to perpetrate a hoax or engage in phishing schemes or forgery or other similar falsification or manipulation of data.</li>
+	<li>You will not use the Service to abuse, harass, stalk, threaten, or otherwise violate the legal rights of others.</li>
+	<li>You will not use the Service to libel or defame others.</li>
+	<li>You will not attempt to decompile, disassemble, reverse engineer, translate or otherwise attempt to derive the source code or algorithms of any software provided, made available or used in connection with the Service.</li>
+	<li>You will not take any action that encourages or assists others in engaging in any acts prohibited under this Agreement (including, without limitation, providing others with the ability to access data they should not be able to access).</li>
+</ul>
+
+<p>You acknowledge and agree that Technomics may implement technological measures intended to ensure Your compliance with the restrictions set forth above.</p>
+
+<p><b>3. Right to Use and Access Data</b></p>
+
+<p>By using the Service, You hereby grant Technomics and its contractors an irrevocable, royalty-free, worldwide license to use, copy, and publicly display Your Data for the sole purpose of providing the Service to You.  Technomics will not, however, by way of this Agreement or Your use of the Service acquire any ownership interest in any Data.  You agree that Technomics may, without limitation and for no compensation, use in any manner all comments, suggestions and other feedback You provide relating to the Service.</p>
+
+<p><b>4. Suspension and Termination of Your Use of the Service; Maintenance</b></p>
+
+<p>If You breach or violate the terms and conditions of this Agreement, Your access to and use of the Service may be suspended or terminated without prior notice to You.  In addition, Your access to and use of the Service or any aspect of the Service may, at any time, be suspended or terminated without prior notice to You in the event Technomics deems it necessary and acceptable to do so, including, without limitation, in the event that Technomics determines, in its sole discretion, to no longer make the Service available.  You acknowledge that if Your access to and/or use of the Service is suspended or terminated, it is possible that You may no longer have access to the Data that You uploaded to the Service or otherwise created using the Service.</p>
+
+<p>Technomics may, from time to time, perform maintenance work on the Service.  There may be times when You will not be able to access the Service due to maintenance work being performed.</p>
+
+<p><b>5.	Privacy Policy</b></p>
+
+<p>Your use of the Service is subject to the privacy policy located at [INSERT WEB SITE URL HERE] as it may be updated and/or newly created by Technomics from time to time (the "Privacy Policy").  The Privacy Policy is hereby incorporated into and made a part of this Agreement.</p>
+
+<p><b>6.	Update; Errors & Inaccuracies</b></p>
+
+<p>The Service may contain inaccuracies or errors, including, without limitation, technical inaccuracies and typographical errors.  Technomics reserves the right to correct any errors, inaccuracies or omissions, although, Technomics will not have an obligation to make any such corrections, and Technomics reserves the right to change or update information contained in the Service at any time without prior notice to You. Without limitation of any other provisions of this Agreement, Technomics will not be liable to You for any inaccuracies or errors contained in the Service.</p>
+
+<p><b>7.	International Users</b></p>
+
+<p>The Service is controlled, operated and administered by Technomics from within the United States.  Technomics makes no representation that the Service is appropriate or available for use at locations outside of the United States, and access to the Service from territories where the Service is illegal is prohibited.  If You access the Service from a location outside the United States, you are responsible for compliance with all applicable local laws, regulations and restrictions.</p>
+
+<p><b>8.	Export Restrictions</b></p>
+
+<p>The export and re-export of the Service, whether in whole or in part, is controlled by the United States Export Administration Regulations.  Without limitation of any of the other restrictions contained in this Agreement, You may not access, download, use, export or re-export the Service in violation of U.S. export laws, regulations or restrictions, or in violation of any other applicable laws, regulations or restrictions. You agree to comply with all export and import laws, regulations and restrictions of any United States or foreign agency or authority, and not to directly or indirectly provide or otherwise make available the Service or any part thereof in violation of any such laws, regulations or restrictions, or without all necessary approvals.  Specifically, and without limiting the foregoing, the Service may not be exported or re-exported into any U.S. embargoed countries or to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person’s List or Entity List.  By agreeing to this Agreement, You agree to the foregoing and represent and warrant that you are not located in, under the control of, or a national or resident of any such country and are not on any such list.  You also agree that you will not use the Service for any purposes prohibited by United States and/or any foreign government law, regulations or restrictions.</p>
+
+<p><b>9.	Changes to this Agreement; Changes to the Service</b></p>
+
+<p>Technomics reserves the right, in its discretion, to, without notice to You, amend, modify and revise the terms of this Agreement at any time by posting the revised terms at the web site located at www.galaxycharts.com.  All such changes to this Agreement will be effective immediately upon posting.  You have the obligation to keep apprised of any changes made to this Agreement.  Technomics may also make improvements or changes in the Service at any time without notice to You. If at any time this Agreement is no longer acceptable to You, You should immediately cease all use of the Service.</p>
+
+<p><b>10.	Disclaimer of Warranties</b></p>
+
+<p><b>Your use and access to, AND ANY RELIANCE BY YOU UPON, thE Service IS at your own risk.  If you are dissatisfied with the Service, or with any of the terms and conditions of this Agreement, your sole and exclusive remedy is to discontinue accessing and using the Service.  NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SERVICE IS PROVIDED “AS IS”, “AS AVAILABLE”, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND.  TECHNOMICS DOES NOT REPRESENT OR ENDORSE THE TIMELINESS, ACCURACY, ADEQUACY, RELIABILITY OR COMPLETENESS OF THE SERVICE, OR ANY CONTENT, INFORMATION OR MATERIALS AND TECHNOMICS EXPRESSLY DISCLAIMS LIABILITY FOR ERRORS OR OMISSIONS IN THE SERVICE AND ANY SUCH CONTENT, INFORMATION AND MATERIALS.  TECHNomics DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND WITH RESPECT TO THE SERVICE, WHETHER EXPRESS, IMPLIED OR STATUTORY INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF NON-INFRINGEMENT OF THIRD PARTY RIGHTS, NON-INTERFERENCE, ACCURACY, TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE (EVEN IF technomics HAS BEEN MADE AWARE OF SUCH PURPOSE) AND FREEDOM FROM COMPUTER VIRUS.  WITHOUT LIMITING THE FOREGOING, technomics DOES NOT WARRANT AND SPECIFICALLY DISCLAIMS ANY WARRANTIES THAT THE OPERATION OF THE SERVICE WILL BE UNINTERRUPTED OR ERROR FREE, OR THAT DEFECTS IN THE SERVICE WILL BE CORRECTED.  NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY technomics OR AN AUTHORIZED REPRESENTATIVE OF technomics wiLL CREATE A WARRANTY.  NO NEWS ITEMS, PRESS RELEASES, CASE STUDIES OR CUSTOMER TESTIMONIALS PUBLISHED ON OR ACCESSIBLE THROUGH THE SERVICE wiLL CREATE A WARRANTY.</b></p>
+
+<p><b>11.	Limitation of Liability</b></p>
+
+<p><b>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT AND UNDER NO CIRCUMSTANCES WILL TECHNOMICS OR ITS SUCCESSORS, ASSIGNS, AFFILIATES, CONTRACTORS OR LICENSORS OR ANY OF THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, AGENTS OR REPRESENTATIVES BE LIABLE TO YOU FOR ANY INJURY (WHETHER A COMMERCIAL INJURY OR OTHERWISE) OR ANY DAMAGES INCLUDING, WITHOUT LIMITATION, DIRECT OR INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES, LOSSES (INCLUDING, WITHOUT LIMITATION, LOSS OF PROFIT) OR EXPENSES, INCLUDING, WITHOUT LIMITATION, LOSSES, EXPENSES, INJURY OR DAMAGES CAUSED BY ANY CONTENT, DOCUMENTS, SOFTWARE, MATERIALS OR INFORMATION RECEIVED FROM OR THROUGH THE USE OF THE SERVICE, ANY EMAIL DISTRIBUTED TO ANY USER, INABILITY TO USE OR ACCESS THE SERVICE, OR IN CONNECTION WITH ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, MALFUNCTION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS OR LINE OR SYSTEM FAILURE, EVEN IF TECHNOMICS, ITS LICENSORS OR REPRESENTATIVES THEREOF, ARE ADVISED OF THE POSSIBILITY OF SUCH INJURY, DAMAGES, LOSSES OR EXPENSES.</b></p>
+
+<p>You specifically acknowledge and agree that while Technomics intends to take reasonable steps to prevent the introduction of viruses or other destructive materials to the Service, Technomics does not warrant, guarantee or make any representations that the Service or any content available for downloading on the Service will be free of viruses, spyware or destructive materials, and that Technomics, its successors, assigns, affiliates, contractors and licensors and their respective directors, officers, employees, agents and representatives will not be liable for any viruses, spyware or other destructive materials that may infect Your computer equipment or other property on account of Your access or use of the Service or the server(s) that makes the Service available.</p>
+
+<p><b>12.	Indemnity</b></p>
+
+<p>YOU HEREBY AGREE, AT YOUR EXPENSE, TO INDEMNIFY, DEFEND AND HOLD TECHNOMICS, ITS SUCCESSORS, ASSIGNS, AFFILIATES, CONTRACTORS, LICENSORS AND THEIR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, AGENTS AND REPRESENTATIVES (COLLECTIVELY, “INDEMNITEES”) HARMLESS FROM AND AGAINST ANY AND ALL LOSS, COST, DAMAGES, LIABILITY, AND/OR EXPENSE ARISING OUT OF OR RELATING TO (A) THIRD PARTY CLAIMS, ACTIONS OR ALLEGATIONS OF INFRINGEMENT BASED ON DATA YOU SUBMITTED IN CONNECTION WITH THE SERVICE; (B) ANY FRAUD OR MANIPULATION BY YOU; (C) ANY BREACH OF THIS AGREEMENT BY YOU; (D) THIRD PARTY CLAIMS, ACTIONS OR ALLEGATIONS BROUGHT AGAINST TECHNOMICS OR ANY INDEMNITEE ARISING OUT OF YOUR USE OF THE SERVICE AND/OR DATA; (E) activity that occurs under your account; AND/OR (F) YOUR INFRINGEMENT OR VIOLATION OF ANY LAWS, REGULATIONS, RESTRICTIONS OR RULES APPLICABLE TO THE SERVICE.</p>
+
+<p><b>13.	Choice of Law; Choice of Venue</b></p>
+
+<p>THIS AGREEMENT AND THE RELATIONSHIP BETWEEN YOU AND TECHNOMICS WILL BE GOVERNED BY THE LAWS OF THE DISTRICT OF COLUMBIA WITHOUT REGARD TO ITS CONFLICT OF LAW PROVISIONS.  REGARDLESS OF YOUR PLACE OF RESIDENCE OR THE LOCATION FROM WHICH YOU USE THE SERVICE, THIS AGREEMENT CONSTITUTES AN AGREEMENT MADE IN THE DISTRICT OF COLUMBIA, USA.  YOU AND TECHNOMICS AGREE TO SUBMIT TO THE PERSONAL AND EXCLUSIVE JURISDICTION OF THE COURTS LOCATED WITHIN THE DISTRICT OF COLUMBIA.</p>
+
+<p><b>14.	General</b></p>
+
+<p>This Agreement shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods.  This Agreement sets forth the entire understanding and agreement of the parties hereto and supersedes any and all oral and/or written agreements and understandings between the parties related to the subject matter of this Agreement and shall not be amended, modified or revised by You.  If any provision of this Agreement is held for any reason to be unenforceable by a court of competent jurisdiction, such holding will not affect the validity and enforceability of the remaining provisions of this Agreement.  The failure or delay of Technomics to exercise any right under this Agreement shall not be deemed a waiver of any such right and will not prevent Technomics from demanding full and exact compliance with this Agreement.  Paragraph and section headings used in this Agreement are for the purpose of convenience only and will not constitute part of this Agreement or have any legal significance in interpreting the provisions hereof.  You are prohibited from assigning or otherwise transferring, by operation of law or otherwise, this Agreement or any rights or obligations herein; any such assignment, transfer or delegation by You will be deemed void from inception.  Technomics may assign this Agreement to any entity at its sole discretion and without notice to You.  Should You have any questions concerning this Agreement, or if You desire to contact Technomics, please send an email to [____________________]; Technomics will endeavor to provide You with a prompt response. </p>
+
+<p>IF YOU DO NOT AGREE TO ALL OF THE FOREGOING TERMS AND CONDITIONS OF THIS AGREEMENT OR ARE NOT AUTHORIZED TO AGREE TO THIS AGREEMENT, DO NOT ACCESS OR USE THE SERVICE.</p>
+
+<p>© 2012 Technomics, Inc.  All rights reserved.</p>
+
+<p>Updated ____________, 2012</p>
+
+								</div><!-- b-licence -->
+							</div><!-- b-licence-wrapper -->
+						</div>
+						<ul class="b-chart-theme-select b-chart-theme-select_color-scheme">
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<img src="images/theme-preview/icon-blue-white.png" alt="" class="b-image" />
+								</span>
+							</li>
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<img src="images/theme-preview/icon-green-white.png" alt="" class="b-image" />
+								</span>
+							</li>
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<img src="images/theme-preview/icon-orange-gray.png" alt="" class="b-image" />
+								</span>
+							</li>
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<img src="images/theme-preview/icon-yellow-gray.png" alt="" class="b-image" />
+								</span>
+							</li>
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<img src="images/theme-preview/icon-white-gray.png" alt="" class="b-image" />
+								</span>
+							</li>
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<img src="images/theme-preview/icon-white-red.png" alt="" class="b-image" />
+								</span>
+							</li>
+						</ul>
+						<ul class="b-chart-theme-select b-chart-theme-select_resolution">
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<span class="b-resolution">Medium</span>
+									<span class="b-size">PNG, ~200Kb</span>
+								</span>
+							</li>
+							<li class="b-chart-theme-select-item">
+								<span class="b-link">
+									<span class="b-resolution">High</span>
+									<span class="b-size">PNG, ~2Mb</span>
+								</span>
+							</li>
+						</ul>
+						<div class="b-chart-theme-buttons">
+							<span class="b-button b-button_ok">
+								<span class="b-button-body">
+									<a href="" class="b-button-text">Accept and Download</a>
+									<span class="b-button-icon"></span>
+									<span class="b-button-left"></span>
+									<span class="b-button-right"></span>
+								</span>
+							</span><!-- b-button -->
+							<span class="b-button">
+								<span class="b-button-body">
+									<span class="b-button-text js-popup-hide">Cancel</span>
+									<span class="b-button-icon"></span>
+									<span class="b-button-left"></span>
+									<span class="b-button-right"></span>
+								</span>
+							</span><!-- b-button -->
+						</div><!-- b-licence-buttons -->
+						<span class="b-popup-hide js-popup-hide">&times;</span>
+					</div><!-- b-popup -->
+				</div><!-- b-body-block_popup -->
+			</div><!-- b-body-section_popup -->
+
+			<div id="edition-popup" class="b-body-section b-body-section_popup" style="display:none;">
+				<div class="b-body-block b-body-block_popup">
+					<div class="b-popup b-popup_edition">
+						<div class="b-title">Galaxy Chart Edition Comparison</div>
+						<table>
+							<thead>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Feature</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner">Website</div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner">Light</div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner">Standard</div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner">Professional</div>
+									</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Create a Galaxy Chart</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Local Calculations</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Galaxy Chart Toolbar in Microsoft Excel</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Saves Galaxy Chart in Excel</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Create Galaxy Chart as PNG Picture</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Custom Titles, Notes, Headings, Etc.</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Selectable Color Schemes</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Select columns to use</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Easy to Use Data Templates</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Create GC as editable objects</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Allows moving overlapping circles</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Allows coloring individual circles</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner"></div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner"><span class="b-icon"></span></div>
+									</td>
+								</tr>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">Data rows</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner">50</div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner">Unlimited</div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner">Unlimited</div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner">Unlimited</div>
+									</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td class="b-col b-col_feature">
+										<div class="b-td-inner">
+											<div class="b-price">
+												<span class="b-price_long-term">Price</span>
+												<span class="b-price_short-term">Limited time price</span>
+											</div>
+											<div class="b-evaluation">Evaluation period 10 days</div>
+										</div>
+									</td>
+									<td class="b-col b-col_web">
+										<div class="b-td-inner">
+											<div class="b-price">
+												<span class="b-price_short-term">Free</span>
+											</div>
+										</div>
+									</td>
+									<td class="b-col b-col_light">
+										<div class="b-td-inner">
+											<div class="b-price">
+												<span class="b-price_long-term">$24.99</span>
+												<span class="b-price_short-term">$19.99</span>
+											</div>
+											<div class="b-buttons b-buttons_multiple">
+												<span class="b-button b-button_ok">
+													<span class="b-button-body">
+														<span class="b-button-text">Buy</span>
+														<span class="b-button-icon"></span>
+														<span class="b-button-left"></span>
+														<span class="b-button-right"></span>
+													</span>
+												</span><!-- b-button -->
+												<span class="b-button">
+													<span class="b-button-body">
+														<span class="b-button-text">Try</span>
+														<span class="b-button-icon"></span>
+														<span class="b-button-left"></span>
+														<span class="b-button-right"></span>
+													</span>
+												</span><!-- b-button -->
+											</div>
+										</div>
+									</td>
+									<td class="b-col b-col_standard">
+										<div class="b-td-inner">
+											<div class="b-price">
+												<span class="b-price_long-term">$69.99</span>
+												<span class="b-price_short-term">$49.99</span>
+											</div>
+											<div class="b-buttons b-buttons_multiple">
+												<span class="b-button b-button_ok">
+													<span class="b-button-body">
+														<span class="b-button-text">Buy</span>
+														<span class="b-button-icon"></span>
+														<span class="b-button-left"></span>
+														<span class="b-button-right"></span>
+													</span>
+												</span><!-- b-button -->
+												<span class="b-button">
+													<span class="b-button-body">
+														<span class="b-button-text">Try</span>
+														<span class="b-button-icon"></span>
+														<span class="b-button-left"></span>
+														<span class="b-button-right"></span>
+													</span>
+												</span><!-- b-button -->
+											</div>
+										</div>
+									</td>
+									<td class="b-col b-col_pro">
+										<div class="b-td-inner">
+											<div class="b-price">
+												<span class="b-price_long-term">$129.99</span>
+												<span class="b-price_short-term">$99.99</span>
+											</div>
+											<div class="b-buttons b-buttons_multiple">
+												<span class="b-button b-button_ok">
+													<span class="b-button-body">
+														<span class="b-button-text">Buy</span>
+														<span class="b-button-icon"></span>
+														<span class="b-button-left"></span>
+														<span class="b-button-right"></span>
+													</span>
+												</span><!-- b-button -->
+												<span class="b-button">
+													<span class="b-button-body">
+														<span class="b-button-text">Try</span>
+														<span class="b-button-icon"></span>
+														<span class="b-button-left"></span>
+														<span class="b-button-right"></span>
+													</span>
+												</span><!-- b-button -->
+											</div>
+										</div>
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+						<div class="b-section b-section_bottom">
+							<div class="b-title">Other licensing available</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt consequatur suscipit facere ad quo doloribus fugiat harum sunt laborum dolorem necessitatibus ipsum ab culpa labore expedita dignissimos aut quisquam voluptatibus. Nulla ea nostrum quod ullam minima libero laudantium laboriosam beatae repellat enim iste laborum reprehenderit commodi nisi illum est porro veniam dolore.</p>
+							<div class="b-system-requirements">
+								<div class="b-title">System Requirements</div>
+								<ul class="b-items">
+									<li class="b-item">A modern web browser.</li>
+									<li class="b-item">An active internet connection.</li>
+								</ul>
+							</div>
+						</div>
+						<span class="b-popup-hide js-popup-hide">&times;</span>
+					</div><!-- b-popup -->
+				</div><!-- b-body-block_popup -->
+			</div><!-- b-body-section_popup -->
+
+		</div><!-- b-body-top -->
+		<div class="b-body-bottom">
+			<div class="b-body-section b-body-section_footer">
+				<div class="b-body-block b-body-block_footer">
+					<div class="b-footer">
+						<span class="b-footer-copyright">© 2012 Technomics, Inc.</span>
+						<ul class="b-footer-menu">
+								<li class="b-footer-menu-item">
+									<span class="b-link">Privacy Policy</span>
+								</li>
+								<li class="b-footer-menu-item">
+									<a href="" class="b-link">Return Policy</a>
+								</li>
+								<li class="b-footer-menu-item">
+									<a href="" class="b-link">Support</a>
+								</li>
+							</ul>
+					</div><!-- b-footer -->
+				</div><!-- b-body-block_footer -->
+			</div><!-- b-body-section_footer -->
+		</div><!-- b-body-bottom -->
+	</div><!-- b-body -->
+</body>
+</html>

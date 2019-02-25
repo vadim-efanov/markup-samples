@@ -1,0 +1,37 @@
+/* Page 404 */
+
+.page-404 {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.page-404 .body-section,
+.page-404 .body-block {
+	height: 100%;
+}
+
+.page-404 .cols {
+	height: 100%;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.page-404 .col {
+	font-family: 'RobotoSlab',sans-serif;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.page-404 .number {
+	font-size: 400%;
+}
+
+.page-404 .text {
+	font-size: 150%;
+}
+
+/* end of Page 404 */

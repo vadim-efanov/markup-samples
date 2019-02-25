@@ -1,0 +1,99 @@
+/* About */
+
+.about {
+	background: #D8D6C0 url('../images/clock.png') 90% 5% no-repeat;
+	color: #1F1D13;
+	display: table;
+	height: 100%;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.about .body-section {
+	background: url('../images/hand.png') 0 50% no-repeat;
+}
+
+.about .body-block {
+	padding: 4em 1em;
+}
+
+.about-member {
+	padding: 6em 0;
+	position: relative;
+}
+
+.about-member + .about-member:before {
+	background: url('../images/venzel.png') 50% 50% no-repeat;
+	content: '';
+	height: 30px;
+	left: 50%;
+	margin: -15px -77px;
+	position: absolute;
+	top: 0;
+	width: 154px;
+}
+
+.about-member .cols {
+	margin-top: 2em;
+	table-layout: fixed;
+}
+
+.about-member .col {
+	vertical-align: top;
+}
+
+.about-member .last-name,
+.about-member .first-name,
+.about-member .position,
+.about-member .summary {
+	font-family: 'RobotoSlab', sans-serif;
+	letter-spacing: 0.1em;
+}
+
+.about-member .last-name {
+	font-size: 500%;
+}
+
+.about-member .first-name {
+	font-size: 250%;
+}
+
+.about-member .position {
+	font-size: 150%;
+	margin-top: 1em;
+}
+
+.about-member .summary,
+.about-member .skills {
+	line-height: 2;
+}
+
+.about-member .summary p + p {
+	margin-top: 1em;
+}
+
+.about-member .skills .items {
+	padding-left: 2em;
+}
+
+.about-member .skills .item {
+	padding-left: 2em;
+	position: relative;
+}
+
+.about-member .skills .item + .item {
+	margin-top: 1em;
+}
+
+.about-member .skills .item:before {
+	background: url('../images/pin.png') 50% 50% no-repeat;
+	content: '';
+	height: 23px;
+	left: 0;
+	margin: -10px 0;
+	position: absolute;
+	top: 1em;
+	width: 19px;
+}
+
+/* end of About */

@@ -1,0 +1,25 @@
+/* Fonts */
+
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/Geometria-Light-webfont.eot');
+	src: url('../fonts/Geometria-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Geometria-Light-webfont.woff') format('woff'),
+	url('../fonts/Geometria-Light-webfont.ttf') format('truetype'),
+	url('../fonts/Geometria-Light-webfont.svg#geometria_lightlight') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'RobotoSlab';
+	src: url('../fonts/RobotoSlab-Regular-webfont.eot');
+	src: url('../fonts/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+	url('../fonts/RobotoSlab-Regular-webfont.ttf') format('truetype'),
+	url('../fonts/RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* end of Fonts */

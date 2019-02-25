@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sigma status monitor</title>
+    <link rel="stylesheet" href="scheme.css">
+</head>
+<body>
+    <h1>Sigma status monitor</h1>
+    <div class="ssm-wrapper">
+        <div class="ssm-container">
+            <svg class="ssm-viewport" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1200">
+                <defs>
+                    <g id="ssmCircle">
+                        <circle cx="0" cy="0" r="20"/>
+                    </g>
+                    <g id="ssmLine">
+                        <line x1="0" y1="0" x2="100" y2="0"/>
+                    </g>
+                    <g id="ssmCurve">
+                        <path d="M0 100V60C0 30 30 0 60 0h40"/>
+                    </g>
+                </defs>
+                <g class="ssm-graph" transform="translate(0 0)">
+                    <g class="ssm-graph-lines">
+                        <g transform="translate(100 0)">
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                        </g>
+                        <g transform="translate(200 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(0 1000) rotate(270)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 600) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 600) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 800) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 800) rotate(90)"/>
+                        </g>
+                        <g transform="translate(300 0)">
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 1000) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 600) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 800) rotate(0)"/>
+                        </g>
+                        <g transform="translate(400 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 600) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 800) rotate(180)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 1000) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                        </g>
+                        <g transform="translate(500 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 200) rotate(180)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 1000) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                        </g>
+                        <g transform="translate(600 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 1000) rotate(180)"/>
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 300) rotate(180)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 600) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 800) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(700 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 400) rotate(180)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(800 0)">
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(900 0)">
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1000 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(0 200) rotate(270)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1100 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 200) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 600) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1200 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 200) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(0 1000) rotate(270)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 600) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 800) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1300 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(0 500) rotate(270)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 1000) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1400 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(0 300) rotate(270)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 900) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1500 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 500) rotate(180)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 100) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1600 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 100) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1700 0)">
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(0)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 200) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 700) rotate(0)"/>
+                        </g>
+                        <g transform="translate(1800 0)">
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 200) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmCurve" transform="translate(100 700) rotate(180)"/>
+                        </g>
+                        <g transform="translate(1900 0)">
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 300) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 400) rotate(90)"/>
+                            <use class="ssm-graph-line" href="#ssmLine" transform="translate(0 500) rotate(90)"/>
+                        </g>
+                        <g transform="translate(2000 0)"></g>
+                    </g><!--ssm-graph-lines-->
+                    <g class="ssm-graph-points">
+                        <g transform="translate(100 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 500)"/>
+                        </g>
+                        <g transform="translate(200 0)"></g>
+                        <g transform="translate(300 0)"></g>
+                        <g transform="translate(400 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 100)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 500)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 600)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 800)"/>
+                        </g>
+                        <g transform="translate(500 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 200)"/>
+                        </g>
+                        <g transform="translate(600 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 300)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 900)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 1000)"/>
+                        </g>
+                        <g transform="translate(700 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 400)"/>
+                        </g>
+                        <g transform="translate(800 0)"></g>
+                        <g transform="translate(900 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 100)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 500)"/>
+                        </g>
+                        <g transform="translate(1000 0)"></g>
+                        <g transform="translate(1100 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 200)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 700)"/>
+                        </g>
+                        <g transform="translate(1200 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 900)"/>
+                        </g>
+                        <g transform="translate(1300 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 300)"/>
+                        </g>
+                        <g transform="translate(1400 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 200)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 900)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 1000)"/>
+                        </g>
+                        <g transform="translate(1500 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 100)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 300)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 500)"/>
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 900)"/>
+                        </g>
+                        <g transform="translate(1600 0)"></g>
+                        <g transform="translate(1700 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 300)"/>
+                        </g>
+                        <g transform="translate(1800 0)"></g>
+                        <g transform="translate(1900 0)">
+                            <use class="ssm-graph-point" href="#ssmCircle" transform="translate(0 500)"/>
+                        </g>
+                        <g transform="translate(2000 0)"></g>
+                    </g><!--ssm-graph-points-->
+                </g><!--ssm-graph-->
+            </svg><!--ssm-viewport-->
+        </div><!--ssm-container-->
+    </div><!--ssm-wrapper-->
+</body>
+</html>

@@ -1,0 +1,46 @@
+/* Buttons */
+
+.buttons {
+	cursor: default;
+}
+
+.button {
+	background: #808080;
+	border: none;
+	color: #fff !important;
+	display: inline-block;
+	font: inherit;
+	font-size: 14px;
+	line-height: 38px;
+	overflow: hidden;
+	padding: 0 8px;
+	text-align: center;
+	text-decoration: none !important;
+	text-transform: uppercase;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.button_color-green {
+	background-color: #ADC400;
+}
+
+.button_color-gray {
+	background-color: #808080;
+}
+
+.button_size-big {
+	font-size: 18px;
+	font-weight: bold;
+	height: 54px;
+	line-height: 54px;
+	text-transform: none;
+}
+
+/* end of Buttons */

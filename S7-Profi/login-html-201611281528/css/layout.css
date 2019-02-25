@@ -1,0 +1,55 @@
+/* Layout */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.body {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.body-row {
+	display: table-row;
+}
+
+.body-row_header,
+.body-row_footer {
+	height: 0;
+}
+
+.body-row_body {
+	height: 100%;
+}
+
+.body-block {
+	margin: auto;
+	max-width: 960px;
+	padding: 1em;
+}
+
+.body-block:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.cols {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.col {
+	display: table-cell;
+}
+
+/* end of Layout */

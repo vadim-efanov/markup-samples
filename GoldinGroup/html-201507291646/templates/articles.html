@@ -1,0 +1,13 @@
+<div class="body-group header active-articles" data-ng-include="'templates/header.html'"></div><!--body-group-->
+<div class="body-group man" data-ng-include="'templates/man.html'"></div><!--body-group-->
+<div class="body-group articles">
+	<div class="body-section">
+		<div class="body-block">
+			<ul class="items">
+				<li class="item" data-ng-repeat="item in articles">
+					<a data-ng-href="#/articles/{{item.slug}}" class="link">{{item.title}}</a>
+				</li>
+			</ul>
+		</div><!--body-block-->
+	</div><!--body-section-->
+</div><!--body-group-->

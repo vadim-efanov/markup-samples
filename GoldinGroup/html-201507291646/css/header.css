@@ -1,0 +1,71 @@
+/* Header */
+
+.header {
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+
+.header-bg {
+	background: #15130D;
+}
+
+.header .body-block {
+	padding: 1em;
+}
+
+.header .col {
+	vertical-align: top;
+}
+
+.header-logo {
+	font-size: 120%;
+}
+
+.header-logo .link {
+	color: inherit;
+	display: table;
+	text-decoration: none;
+}
+
+.header-logo .image-wrapper,
+.header-logo .title {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.header-logo .title {
+	letter-spacing: 0.1em;
+	padding-left: 0.2em;
+	text-transform: uppercase;
+	width: 5em;
+}
+
+.header-menu .items {
+	text-align: right;
+}
+
+.header-menu .item {
+	display: inline-block;
+	margin-left: 3em;
+	opacity: 0.5;
+}
+
+.header-menu .link {
+	color: inherit;
+	font-family: 'RobotoSlab', sans-serif;
+	letter-spacing: 0.1em;
+	line-height: 2;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.active-about .item-about,
+.active-articles .item-articles,
+.active-contact .item-contact {
+	opacity: 1;
+}
+
+/* end of Header */

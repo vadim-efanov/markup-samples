@@ -1,0 +1,233 @@
+/* Article */
+
+.article {
+	background: #D8D6C0 url('../images/clock.png') 90% 5% no-repeat;
+	color: #1F1D13;
+	display: table;
+	height: 100%;
+	line-height: 2;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.article .body-section {
+	background: url('../images/hand.png') 0 50% no-repeat;
+}
+
+.article .body-block {
+	padding: 8em 1em 2em;
+}
+
+.article-letter {
+	font-family: 'RobotoSlab', sans-serif;
+	font-size: 800%;
+}
+
+.article-title {
+	font-family: 'RobotoSlab', sans-serif;
+	font-size: 200%;
+	letter-spacing: 0.1em;
+}
+
+.article-description {
+	font-family: 'RobotoSlab', sans-serif;
+	font-size: 120%;
+	letter-spacing: 0.1em;
+	margin: 6em 0;
+}
+
+.article-text img {
+	max-width: 100%;
+}
+
+.article-text b,
+.article-text strong {
+	font-weight: bold;
+}
+
+.article-text i,
+.article-text em {
+	font-style: italic;
+}
+
+.article-text s,
+.article-text strike,
+.article-text del {
+	text-decoration: line-through;
+}
+
+.article-text sup {
+	font-size: smaller;
+	line-height: normal;
+	vertical-align: super;
+}
+
+.article-text sub {
+	font-size: smaller;
+	line-height: normal;
+	vertical-align: sub;
+}
+
+.article-text ul,
+.article-text ol {
+	padding-left: 2em;
+}
+
+.article-text ul {
+	list-style: disc outside;
+}
+
+.article-text ol {
+	list-style: decimal outside;
+}
+
+.article-text li + li {
+	margin-top: 0.5em;
+}
+
+.article-text h1 {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.article-text h2 {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.article-text h3 {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.article-text h4,
+.article-text h5,
+.article-text h6 {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.article-text h1,
+.article-text h2,
+.article-text h3,
+.article-text h4,
+.article-text h5,
+.article-text h6,
+.article-text p,
+.article-text ul,
+.article-text ol {
+	margin-top: 1em;
+}
+
+.article-text h1:first-child,
+.article-text h2:first-child,
+.article-text h3:first-child,
+.article-text h4:first-child,
+.article-text h5:first-child,
+.article-text h6:first-child,
+.article-text p:first-child,
+.article-text ul:first-child,
+.article-text ol:first-child {
+	margin-top: 0;
+}
+
+.article-text > h1,
+.article-text > h2,
+.article-text > h3,
+.article-text > h4,
+.article-text > h5,
+.article-text > h6,
+.article-text > p,
+.article-text > ul,
+.article-text > ol {
+	margin-top: 3em;
+}
+
+.article-quote {
+	font-family: 'RobotoSlab', sans-serif;
+	font-size: 130%;
+	left: 0.1em;
+	margin: 4em 0;
+	padding: 2em 0;
+	position: relative;
+}
+
+.article-quote:before,
+.article-quote:after {
+	border-top: 4px solid #1F1D13;
+	content: '';
+	left: 50%;
+	margin: 0 -50px;
+	position: absolute;
+	width: 100px;
+}
+
+.article-quote:before {
+	top: 0;
+}
+
+.article-quote:after {
+	bottom: 0;
+}
+
+.article-blockquote {
+	margin: 4em 0;
+	padding: 2em 3em;
+	position: relative;
+}
+
+.article-blockquote:before,
+.article-blockquote:after {
+	border: 4px solid #A59F84;
+	content: '';
+	height: 30%;
+	position: absolute;
+	width: 30%;
+}
+
+.article-blockquote:before {
+	border-width: 4px 0 0 4px;
+	left: 0;
+	top: 0;
+}
+
+.article-blockquote:after {
+	border-width: 0 4px 4px 0;
+	bottom: 0;
+	right: 0;
+}
+
+.article-author {
+	background: url('') 50% 0 no-repeat;
+	font-family: 'RobotoSlab', sans-serif;
+	letter-spacing: 0.1em;
+	margin-top: 6em;
+	padding-top: 6em;
+	position: relative;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.article-author:before {
+	background: url('../images/venzel4.png') 50% 50% no-repeat;
+	content: '';
+	height: 30px;
+	left: 50%;
+	margin: -15px -13px;
+	position: absolute;
+	top: 0;
+	width: 26px;
+}
+
+.article-author-name {}
+
+.article-author-position {
+	font-size: 60%;
+}
+
+.article-date {
+	margin-top: 6em;
+	text-align: center;
+}
+
+/* end of Article */

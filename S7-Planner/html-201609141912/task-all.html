@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Planer S7</title>
+	<link rel="stylesheet" href="css/app.css"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="libs/moment/moment-with-locales.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+	<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+	<script src="libs/select2/select2.min.js"></script>
+	<script src="libs/tinymce/tinymce.min.js"></script>
+	<script src="libs/tinymce/jquery.tinymce.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+<div class="body">
+	<div class="body-row body-row_head">
+		<div class="body-cell body-cell_head">
+			<div class="header">
+				<div class="cols">
+					<div class="col col_01">
+						<div class="icons header-icons">
+							<span class="icon icon_header-oneworld"></span>
+							<span class="icon icon_header-s7"></span>
+						</div>
+					</div><!--col-->
+					<div class="col col_02">
+						<div class="header-logo">
+							<a href="" class="link">
+								<span class="icon icon_header-logo"></span>
+								<span class="text">Planer</span>
+							</a>
+						</div><!--header-logo-->
+					</div><!--col-->
+					<div class="col col_03">
+						<div class="header-user">
+							<div class="image-wrapper">
+								<img src="images/no-photo-small.png" alt="" class="image"/>
+							</div>
+							<div class="name">Хитроумный идальго Дон Кихот Ламанчский</div>
+						</div><!--header-user-->
+						<div class="header-logout">
+							<a href="" class="link">
+								<span class="icon icon_header-logout"></span>
+							</a>
+						</div><!--header-logout-->
+					</div><!--col-->
+				</div><!--cols-->
+			</div><!--header-->
+		</div><!--body-cell-->
+	</div><!--body-row-->
+	<div class="body-row body-row_body">
+		<div class="body-cell body-cell_body">
+			<div class="task-browser sidebar-expanded">
+				<div class="cols">
+					<div class="col col_01">
+						<div class="sidebar-filters">
+							<div class="sidebar-filters-body">
+								<div class="filter-item filter-item_level-0 active">
+									<div class="filter-item-head">
+										<div class="glyphicon glyphicon-triangle-right"></div>
+										<div class="filter-item-title">Filter Item L0</div>
+										<div class="filter-item-counter">333</div>
+									</div><!--filter-item-head-->
+									<div class="filter-item-body"></div><!--filter-item-body-->
+								</div><!--filter-item-->
+								<div class="filter-item filter-item_level-0 expandable">
+									<div class="filter-item-head">
+										<div class="glyphicon glyphicon-triangle-right"></div>
+										<div class="filter-item-title">Filter Item L0</div>
+										<div class="filter-item-counter">333</div>
+									</div><!--filter-item-head-->
+									<div class="filter-item-body">
+										<div class="filter-item filter-item_level-1">
+											<div class="filter-item-head">
+												<div class="filter-item-title">Filter Item L1</div>
+												<div class="filter-item-counter">33</div>
+											</div><!--filter-item-head-->
+											<div class="filter-item-body"></div><!--filter-item-body-->
+										</div><!--filter-item-->
+										<div class="filter-item filter-item_level-1">
+											<div class="filter-item-head">
+												<div class="filter-item-title">Filter Item L1</div>
+												<div class="filter-item-counter">3</div>
+											</div><!--filter-item-head-->
+											<div class="filter-item-body"></div><!--filter-item-body-->
+										</div><!--filter-item-->
+									</div><!--filter-item-body-->
+								</div><!--filter-item-->
+								<div class="filter-item filter-item_level-0 expandable expanded">
+									<div class="filter-item-head">
+										<div class="glyphicon glyphicon-triangle-right"></div>
+										<div class="filter-item-title">Filter Item L0</div>
+										<div class="filter-item-counter">333</div>
+									</div><!--filter-item-head-->
+									<div class="filter-item-body">
+										<div class="filter-item filter-item_level-1">
+											<div class="filter-item-head">
+												<div class="filter-item-title">Filter Item L1</div>
+												<div class="filter-item-counter">33</div>
+											</div><!--filter-item-head-->
+											<div class="filter-item-body"></div><!--filter-item-body-->
+										</div><!--filter-item-->
+										<div class="filter-item filter-item_level-1">
+											<div class="filter-item-head">
+												<div class="filter-item-title">Filter Item L1</div>
+												<div class="filter-item-counter">3</div>
+											</div><!--filter-item-head-->
+											<div class="filter-item-body"></div><!--filter-item-body-->
+										</div><!--filter-item-->
+									</div><!--filter-item-body-->
+								</div><!--filter-item-->
+								<div class="filter-item filter-item_level-0">
+									<div class="filter-item-head">
+										<div class="glyphicon glyphicon-triangle-right"></div>
+										<div class="filter-item-title">Filter Item L0</div>
+										<div class="filter-item-counter">333</div>
+									</div><!--filter-item-head-->
+									<div class="filter-item-body"></div><!--filter-item-body-->
+								</div><!--filter-item-->
+							</div><!--sidebar-filters-body-->
+						</div><!--sidebar-filters-->
+						<div class="sidebar-filters">
+							<div class="sidebar-filters-head">
+								<div class="cols">
+									<div class="col col_01">
+										<div class="title">Мои фильтры</div>
+									</div><!--col-->
+									<div class="col col_02">
+										<span class="icon icon_add"></span>
+									</div><!--col-->
+								</div><!--cols-->
+							</div><!--sidebar-filters-head-->
+							<div class="sidebar-filters-body">
+								<div class="filter-item filter-item_level-0">
+									<div class="filter-item-head">
+										<div class="glyphicon glyphicon-triangle-right"></div>
+										<div class="filter-item-title">Filter Item L0</div>
+										<div class="filter-item-counter">3</div>
+									</div><!--filter-item-head-->
+									<div class="filter-item-body"></div><!--filter-item-body-->
+								</div><!--filter-item-->
+								<div class="filter-item filter-item_level-0">
+									<div class="filter-item-head">
+										<div class="glyphicon glyphicon-triangle-right"></div>
+										<div class="filter-item-title">Filter Item L0</div>
+										<div class="filter-item-counter">3</div>
+									</div><!--filter-item-head-->
+									<div class="filter-item-body"></div><!--filter-item-body-->
+								</div><!--filter-item-->
+							</div><!--sidebar-filters-body-->
+						</div><!--sidebar-filters-->
+					</div><!--col-->
+					<div class="col col_02">
+						<div class="icon icon_sidebar-trigger"></div>
+						<div class="tasks-all">
+							<div class="tasks-all-head">
+								<div class="cols">
+									<div class="col col_01">
+										<div class="title">
+											<span class="text">Все задачи</span>
+											<span class="icon icon_pencil" data-toggle="modal" data-target="#newFilter"></span>
+										</div>
+									</div><!--col-->
+									<div class="col col_02">
+										<a href="" class="button button_new-task button_color-green">
+											<span class="icon icon_plus"></span>
+											<span class="text">Новая задача</span>
+										</a>
+										<div class="search">
+											<span class="span icon icon_search"></span>
+											<input type="text" class="input-text"/>
+											<span class="span icon icon_cross"></span>
+										</div>
+										<a href="" class="button button_download button_color-green">
+											<span class="icon icon_download"></span>
+										</a>
+									</div><!--col-->
+								</div><!--cols-->
+							</div>
+							<div class="tasks-all-body">
+								<div class="tasks-all-table">
+									<div class="tasks-all-table-head">
+										<div class="cols">
+											<div class="col col_task-arrow"></div>
+											<div class="col col_task-checkbox">
+												<span class="icon icon_checkbox toggle-active" title="Отметить все"></span>
+											</div>
+											<div class="col col_task-number sortable sortable_up">
+												<span class="text" title="Номер">Номер</span>
+												<span class="icon icon_sortable"></span>
+											</div>
+											<div class="col col_task-title sortable sortable_down">
+												<span class="text" title="Задача">Задача</span>
+												<span class="icon icon_sortable"></span>
+											</div>
+											<div class="col col_task-start sortable">
+												<span class="text" title="Дата начала">Дата начала</span>
+												<span class="icon icon_sortable"></span>
+											</div>
+											<div class="col col_task-end sortable">
+												<span class="text" title="Дата завершения">Дата завершения</span>
+												<span class="icon icon_sortable"></span>
+											</div>
+											<div class="col col_task-status sortable">
+												<span class="text" title="Статус">Статус</span>
+												<span class="icon icon_sortable"></span>
+											</div>
+											<div class="col col_task-process sortable">
+												<span class="text" title="БП">БП</span>
+												<span class="icon icon_sortable"></span>
+											</div>
+											<div class="col col_task-process-stage sortable">
+												<span class="text" title="Этап">Этап</span>
+												<span class="icon icon_sortable"></span>
+											</div>
+											<div class="col col_task-actions">
+												<span class="icon icon_settings" data-toggle="modal" data-target="#columnSettings" title="Настройки таблицы"></span>
+											</div>
+										</div><!--cols-->
+									</div><!--tasks-all-table-head-->
+									<div class="tasks-all-table-body">
+										<div class="task task_level-0 expanded">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-new">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-new"></span>
+															<span class="text">Новая</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">
+												<div class="task-content">
+													<div class="cols">
+														<div class="col col_01">
+															<div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut enim illo magnam molestiae quas quod quos. Ab asperiores aut debitis ducimus eligendi et in labore mollitia non officia, perspiciatis! <a href="">https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0</a></div>
+														</div><!--col-->
+														<div class="col col_02">
+															<div class="buttons">
+																<button class="button button_color-green">Выполнить</button>
+																<button class="button button_color-gray">Отклонить</button>
+															</div>
+														</div><!--col-->
+													</div><!--cols-->
+												</div><!--task-content-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-track">
+												<div class="task-track">
+													<div class="task-track-item">
+														<div class="status">
+															<span class="icon icon_task-status"></span>
+															<span class="text">Новая</span>
+														</div>
+														<div class="date">25 июн 2015, 18:55</div>
+														<div class="name">Юрий Гришкин</div>
+													</div><!--task-track-item-->
+													<div class="task-track-item">
+														<div class="status">
+															<span class="icon icon_task-status"></span>
+															<span class="text">Новая</span>
+														</div>
+														<div class="date">25 июн 2015, 18:55</div>
+														<div class="name">Юрий Гришкин</div>
+													</div><!--task-track-item-->
+													<div class="task-track-item">
+														<div class="status">
+															<span class="icon icon_task-status"></span>
+															<span class="text">Новая</span>
+														</div>
+														<div class="date">25 июн 2015, 18:55</div>
+														<div class="name">Юрий Гришкин</div>
+													</div><!--task-track-item-->
+													<div class="task-track-item task-track-item_dots">
+														<div class="status">
+															<span class="icon icon_task-track-dots"></span>
+															<span class="text">&nbsp;</span>
+														</div>
+														<div class="date">&nbsp;</div>
+														<div class="name">&nbsp;</div>
+													</div><!--task-track-item-->
+													<div class="task-track-item">
+														<div class="status">
+															<span class="icon icon_task-status"></span>
+															<span class="text">Новая</span>
+														</div>
+														<div class="date">25 июн 2015, 18:55</div>
+														<div class="name">Юрий Гришкин</div>
+													</div><!--task-track-item-->
+												</div><!--task-track-->
+											</div><!--task-section-->
+										</div><!--task-->
+										<div class="task task_level-0">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-draft">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-draft"></span>
+															<span class="text">Черновик</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">task-content</div><!--task-section-->
+											<div class="task-section task-section_task-track">task-track</div><!--task-section-->
+										</div><!--task-->
+										<div class="task task_level-0">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-new">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-new"></span>
+															<span class="text">Новая</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">task-content</div><!--task-section-->
+											<div class="task-section task-section_task-track">task-track</div><!--task-section-->
+										</div><!--task-->
+										<div class="task task_level-1">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-underway">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-underway"></span>
+															<span class="text">В работе</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">task-content</div><!--task-section-->
+											<div class="task-section task-section_task-track">task-track</div><!--task-section-->
+										</div><!--task-->
+										<div class="task task_level-2">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-rejected">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-rejected"></span>
+															<span class="text">Отклонена</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">task-content</div><!--task-section-->
+											<div class="task-section task-section_task-track">task-track</div><!--task-section-->
+										</div><!--task-->
+										<div class="task task_level-2">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-canceled">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-canceled"></span>
+															<span class="text">Отменена</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">task-content</div><!--task-section-->
+											<div class="task-section task-section_task-track">task-track</div><!--task-section-->
+										</div><!--task-->
+										<div class="task task_level-1">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-performed">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-performed"></span>
+															<span class="text">Выполнена</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">task-content</div><!--task-section-->
+											<div class="task-section task-section_task-track">task-track</div><!--task-section-->
+										</div><!--task-->
+										<div class="task task_level-0">
+											<div class="task-section task-section_task-head">
+												<div class="cols">
+													<div class="col col_task-arrow">
+														<span class="glyphicon glyphicon-triangle-right"></span>
+													</div>
+													<div class="col col_task-checkbox">
+														<span class="icon icon_checkbox toggle-active"></span>
+													</div>
+													<div class="col col_task-number">
+														<div class="task-number">00-150253</div>
+													</div>
+													<div class="col col_task-title">
+														<div class="task-title status-completed">
+															<span class="icon icon_favorite toggle-active"></span>
+															<span class="icon icon_important toggle-active"></span>
+															<span class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolore eligendi facere fugiat itaque, neque nulla placeat porro quasi repellendus, sequi tempore, totam voluptatibus! Autem beatae deserunt eveniet quod vel!</span>
+														</div>
+														<div class="task-level-guide">
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+															<div class="task-level-guide-item"></div>
+														</div>
+													</div>
+													<div class="col col_task-start">
+														<div class="task-start">18 июл 2015</div>
+													</div>
+													<div class="col col_task-end">
+														<div class="task-end">25 июл 2015</div>
+													</div>
+													<div class="col col_task-status">
+														<div class="task-status">
+															<span class="icon icon_task-status status-completed"></span>
+															<span class="text">Завершена</span>
+														</div>
+													</div>
+													<div class="col col_task-process">
+														<div class="task-process">&mdash;</div>
+													</div>
+													<div class="col col_task-process-stage">
+														<div class="task-process-stage">&mdash;</div>
+													</div>
+													<div class="col col_task-actions">
+														<span class="icon icon_task-actions"></span>
+													</div>
+												</div><!--cols-->
+											</div><!--task-section-->
+											<div class="task-section task-section_task-content">task-content</div><!--task-section-->
+											<div class="task-section task-section_task-track">task-track</div><!--task-section-->
+										</div><!--task-->
+									</div><!--tasks-all-table-body-->
+								</div><!--tasks-all-table-->
+							</div><!--tasks-all-body-->
+						</div><!--tasks-all-->
+					</div><!--col-->
+				</div><!--cols-->
+			</div><!--task-browser-->
+		</div><!--body-cell-->
+	</div><!--body-row-->
+	<div class="body-row body-row_foot">
+		<div class="body-cell body-cell_foot">
+			<div class="footer">
+				<div class="cols">
+					<div class="col col_01">
+						<div class="footer-copy">
+							<span class="text"><a href="" class="link">S7 Airlines</a> 2015 &copy;</span>
+						</div>
+					</div><!--col-->
+					<div class="col col_02">
+						<div class="footer-webmaster">
+							<span class="text">Разработка &mdash; <a href="" class="link">EastBanc Technologies</a></span>
+						</div>
+					</div><!--col-->
+				</div><!--cols-->
+			</div><!--footer-->
+		</div><!--body-cell-->
+	</div><!--body-row-->
+</div><!--body-->
+<div id="newFilter" class="modal modal_filter-new fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="cols">
+					<div class="col col_01">
+						<div class="modal-title">Создание фильтра</div>
+					</div><!--col-->
+					<div class="col col_02">
+						<button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+							<span class="icon icon_modal-close" aria-hidden="true"></span>
+						</button>
+					</div><!--col-->
+				</div><!--cols-->
+			</div><!--modal-header-->
+			<div class="modal-body">
+				<div class="filter-new">
+					<div class="filter-new-head">
+						<div class="cols">
+							<div class="col col_01">
+								<input type="text" placeholder="Название фильтра" class="input-text"/>
+							</div>
+							<div class="col col_02">
+								<div class="checkbox-item">
+									<span class="icon icon_checkbox toggle-active"></span>
+									<span class="text">Отображать на панели</span>
+								</div>
+							</div>
+						</div><!--cols-->
+					</div><!--filter-new-head-->
+					<div class="filter-new-body">
+						<div class="filter-new-parameters">
+							<div class="filter-new-parameter-items">
+								<div class="filter-new-parameter-item">
+									<div class="cols">
+										<div class="col col_01">
+											<div class="number">1</div>
+										</div>
+										<div class="col col_02">
+											<select class="select select2">
+												<option value="">Статус задачи</option>
+												<option value="">Value 2</option>
+											</select>
+										</div>
+										<div class="col col_03">
+											<select class="select select2">
+												<option value="">Равно</option>
+												<option value="">Value 2</option>
+											</select>
+										</div>
+										<div class="col col_04">
+											<select class="select select2">
+												<option value="">Завершенные</option>
+												<option value="">Value 2</option>
+											</select>
+										</div>
+										<div class="col col_05">
+											<div class="icon icon_cross"></div>
+										</div>
+									</div><!--cols-->
+								</div><!--filter-new-parameter-item-->
+								<div class="filter-new-parameter-item">
+									<div class="cols">
+										<div class="col col_01">
+											<div class="number">2</div>
+										</div>
+										<div class="col col_02">
+											<select class="select select2">
+												<option value="">Статус задачи</option>
+												<option value="">Value 2</option>
+											</select>
+										</div>
+										<div class="col col_03">
+											<select class="select select2">
+												<option value="">Равно</option>
+												<option value="">Value 2</option>
+											</select>
+										</div>
+										<div class="col col_04">
+											<select class="select select2">
+												<option value="">Завершенные</option>
+												<option value="">Value 2</option>
+											</select>
+										</div>
+										<div class="col col_05">
+											<div class="icon icon_cross"></div>
+										</div>
+									</div><!--cols-->
+								</div><!--filter-new-parameter-item-->
+							</div><!--filter-new-parameter-items-->
+							<div class="filter-new-parameter-add">
+								<a href="" class="link">Добавить параметр</a>
+							</div>
+						</div><!--filter-new-parameters-->
+						<div class="filter-new-logic">
+							<div class="filter-new-logic-head">
+								<div class="cols">
+									<div class="col col_01">
+										<div class="title">Логика фильтра</div>
+									</div>
+									<div class="col col_02">
+										<div class="example">Пример: (1 И 2) ИЛИ (1 И 3)</div>
+									</div>
+								</div><!--cols-->
+							</div>
+							<div class="filter-new-logic-body">
+								<input type="text" placeholder="" class="input-text"/>
+							</div>
+						</div><!--filter-new-logic-->
+					</div><!--filter-new-body-->
+				</div><!--filter-new-->
+			</div><!--modal-body-->
+			<div class="modal-footer">
+				<div class="buttons">
+					<button type="button" class="button button_size-big button_color-gray" data-dismiss="modal">Закрыть</button>
+					<button type="button" class="button button_size-big button_color-green">Сохранить</button>
+				</div>
+			</div><!--modal-footer-->
+		</div><!--modal-content-->
+	</div><!--modal-dialog-->
+</div><!--modal-->
+<div id="columnSettings" class="modal modal_column-settings fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="cols">
+					<div class="col col_01">
+						<div class="modal-title">Настройки таблицы</div>
+					</div><!--col-->
+					<div class="col col_02">
+						<button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+							<span class="icon icon_modal-close" aria-hidden="true"></span>
+						</button>
+					</div><!--col-->
+				</div><!--cols-->
+			</div><!--modal-header-->
+			<div class="modal-body">
+				<div class="column-settings">
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Номер</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox active disabled"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Задача</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Дата начала</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Дата завершения</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Статус</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">БП</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Этап</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Ответственные</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Исполнители</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Постановщик</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+					<div class="column-settings-item">
+						<div class="cols">
+							<div class="col col_01">
+								<span class="icon icon_column-settings"></span>
+							</div>
+							<div class="col col_02">
+								<span class="icon icon_checkbox toggle-active"></span>
+							</div>
+							<div class="col col_03">
+								<div class="col-title">Досье</div>
+							</div>
+						</div><!--cols-->
+					</div><!--column-settings-item-->
+				</div><!--column-settings-->
+			</div><!--modal-body-->
+			<div class="modal-footer">
+				<div class="buttons">
+					<button type="button" class="button button_size-big button_color-green">Сохранить</button>
+				</div>
+			</div><!--modal-footer-->
+		</div><!--modal-content-->
+	</div><!--modal-dialog-->
+</div><!--modal-->
+<div class="actions-menu visible">
+	<div class="actions-menu-item">
+		<div class="actions-menu-item-head">
+			<div class="title"><b>Выбрано 2 задачи</b></div>
+		</div><!--actions-menu-item-head-->
+	</div><!--actions-menu-item-->
+	<div class="actions-menu-item">
+		<div class="actions-menu-item-head">
+			<div class="title">Изменить статус</div>
+			<div class="glyphicon glyphicon-chevron-right"></div>
+		</div><!--actions-menu-item-head-->
+		<div class="actions-menu-item-body">
+			<div class="actions-menu-item">
+				<div class="actions-menu-item-head">
+					<div class="icon icon_task-status status-new"></div>
+					<div class="title">Статус 1</div>
+				</div><!--actions-menu-item-head-->
+			</div><!--actions-menu-item-->
+			<div class="actions-menu-item">
+				<div class="actions-menu-item-head">
+					<div class="icon icon_task-status status-underway"></div>
+					<div class="title">Статус 2</div>
+				</div><!--actions-menu-item-head-->
+			</div><!--actions-menu-item-->
+			<div class="actions-menu-item">
+				<div class="actions-menu-item-head">
+					<div class="icon icon_task-status status-completed"></div>
+					<div class="title">Статус 3</div>
+				</div><!--actions-menu-item-head-->
+			</div><!--actions-menu-item-->
+		</div><!--actions-menu-item-body-->
+	</div><!--actions-menu-item-->
+	<div class="actions-menu-item">
+		<div class="actions-menu-item-head">
+			<div class="title">Изменить приоритет</div>
+			<div class="glyphicon glyphicon-chevron-right"></div>
+		</div><!--actions-menu-item-head-->
+		<div class="actions-menu-item-body">
+			<div class="actions-menu-item">
+				<div class="actions-menu-item-head">
+					<div class="title">Приоритет 1</div>
+				</div><!--actions-menu-item-head-->
+			</div><!--actions-menu-item-->
+			<div class="actions-menu-item">
+				<div class="actions-menu-item-head">
+					<div class="title">Приоритет 2</div>
+				</div><!--actions-menu-item-head-->
+			</div><!--actions-menu-item-->
+			<div class="actions-menu-item">
+				<div class="actions-menu-item-head">
+					<div class="title">Приоритет 3</div>
+				</div><!--actions-menu-item-head-->
+			</div><!--actions-menu-item-->
+		</div><!--actions-menu-item-body-->
+	</div><!--actions-menu-item-->
+	<div class="actions-menu-item">
+		<div class="actions-menu-item-head">
+			<div class="title">Удалить</div>
+		</div><!--actions-menu-item-head-->
+	</div><!--actions-menu-item-->
+	<div class="actions-menu-item">
+		<div class="actions-menu-item-head">
+			<div class="title">Настроить уведомления</div>
+		</div><!--actions-menu-item-head-->
+	</div><!--actions-menu-item-->
+</div><!--actions-menu-->
+</body>
+</html>

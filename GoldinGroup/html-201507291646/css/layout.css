@@ -1,0 +1,17 @@
+/* Layout */
+
+html,
+body {
+	height: 100%;
+}
+
+.body {
+	height: 100%;
+}
+
+.body-block {
+	margin: auto;
+	max-width: 900px;
+}
+
+/* end of Layout */

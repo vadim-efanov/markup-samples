@@ -1,0 +1,62 @@
+/* Task New */
+
+.task-new-head,
+.task-new-body {
+	padding: 1em;
+}
+
+.task-new-head .title {
+	font-size: 180%;
+	font-weight: bold;
+}
+
+.task-new .form-item {
+	display: block;
+	margin-top: 1em;
+}
+
+.task-new .form-item_task-start,
+.task-new .form-item_task-end,
+.task-new .form-item_task-importance {
+	display: inline-block;
+	margin-right: 5%;
+	vertical-align: top;
+	width: 25%;
+}
+
+.task-new .radio-nav {
+	border-top: 1px solid #ccc;
+	margin-top: 2em;
+	padding-top: 1em;
+}
+
+.task-new .form-item[data-radio-nav] {
+	display: none;
+}
+
+.task-new .form-item[data-radio-nav].active {
+	display: block;
+}
+
+.task-new .form-item-head {
+	padding: 0.5em 0;
+	position: relative;
+}
+
+.task-new .form-item-head .icon_cross2 {
+	cursor: pointer;
+	margin: -5px 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+.task-new .buttons {
+	margin-top: 2em;
+}
+
+.task-new .buttons .button {
+	min-width: 200px;
+}
+
+/* end of Task New */
